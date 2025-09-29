@@ -1,2 +1,2 @@
-[kaval@kaval-hp250g7notebookpc python]$ source venv/bin/activate
-(venv) [kaval@kaval-hp250g7notebookpc python]$ uvicorn main:app --reload
+source venv/bin/activate
+uvicorn main:app --reload
