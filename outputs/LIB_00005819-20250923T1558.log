@@ -1,0 +1,151 @@
+2025-09-23 15:58:16,980 INFO [LIB_00005819]                 Book.java:562  | 1 sheet in /home/kaval/Documentos/dev/CONCER/python/uploads/LIB_00005819.pdf
+2025-09-23 15:58:18,875 INFO []                 Book.java:2531 | Stored /book.xml
+2025-09-23 15:58:18,876 INFO []                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/LIB_00005819.omr
+2025-09-23 15:58:18,886 INFO []                 Book.java:1933 | Book reaching PAGE on sheets:[#1]
+2025-09-23 15:58:18,889 INFO [LIB_00005819]       StepMonitoring.java:98   | LOAD
+2025-09-23 15:58:20,577 INFO [LIB_00005819]            SheetStub.java:1268 | Loaded image #1 2479x3508 from /home/kaval/Documentos/dev/CONCER/python/uploads/LIB_00005819.pdf
+2025-09-23 15:58:20,590 INFO [LIB_00005819]       StepMonitoring.java:98   | BINARY
+2025-09-23 15:58:21,593 INFO [LIB_00005819]       StepMonitoring.java:98   | SCALE
+2025-09-23 15:58:21,749 INFO [LIB_00005819]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 19 interline
+2025-09-23 15:58:21,783 INFO [LIB_00005819]         ScaleBuilder.java:264  | Beam measured height: 12 -- 0.50 of [5..19] range at 365% of needed quorum
+2025-09-23 15:58:21,829 INFO [LIB_00005819]            ScaleStep.java:65   | Scale{ interline(17,19,20) line(2,2,2) beam(12)}
+2025-09-23 15:58:21,923 INFO [LIB_00005819]       StepMonitoring.java:98   | GRID
+2025-09-23 15:58:23,798 INFO [LIB_00005819]       LinesRetriever.java:1500 | Global slope: 0.00000
+2025-09-23 15:58:23,950 INFO [LIB_00005819]    ClustersRetriever.java:328  | Retrieved raw line clusters: 8 of sizes [5] with interline(17,19,20)
+2025-09-23 15:58:24,234 INFO [LIB_00005819]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5] #6[6] #7[7] #8[8]
+2025-09-23 15:58:24,685 INFO [LIB_00005819]        SystemManager.java:134  | Indentation detected for system #1
+2025-09-23 15:58:24,686 INFO [LIB_00005819]        SystemManager.java:779  | 1 part along 8 systems
+2025-09-23 15:58:24,686 INFO [LIB_00005819]                 Book.java:545  | Created scores: [{Score 1}]
+2025-09-23 15:58:24,687 INFO [LIB_00005819]       StepMonitoring.java:98   | HEADERS
+2025-09-23 15:58:25,642 INFO [LIB_00005819]      BasicClassifier.java:277  | Classifier loaded XML norms.
+2025-09-23 15:58:25,646 INFO [LIB_00005819]   AbstractClassifier.java:396  | Classifier data loaded from default uri file:///home/kaval/Documents/audiveris/app/res/basic-classifier.zip
+2025-09-23 15:58:27,017 INFO [LIB_00005819]       StepMonitoring.java:98   | STEM_SEEDS
+2025-09-23 15:58:27,129 INFO [LIB_00005819]        StemSeedsStep.java:86   | stem(2 max:2)
+2025-09-23 15:58:27,225 INFO [LIB_00005819]       StepMonitoring.java:98   | BEAMS
+2025-09-23 15:58:32,221 INFO [LIB_00005819]       StepMonitoring.java:98   | LEDGERS
+2025-09-23 15:58:32,734 INFO [LIB_00005819]       StepMonitoring.java:98   | HEADS
+2025-09-23 15:58:39,631 INFO [LIB_00005819]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-0.0] NOTEHEAD_BLACK[L:-0.3,R:-1.1]}
+2025-09-23 15:58:39,632 INFO [LIB_00005819]       StepMonitoring.java:98   | STEMS
+2025-09-23 15:58:40,109 INFO [LIB_00005819]           BeamLinker.java:1729 | Not linking shorter BeamHookInter#1602{(0.430/0.685) BEAM_HOOK}
+2025-09-23 15:58:40,341 INFO [LIB_00005819]           BeamLinker.java:1729 | Not linking shorter BeamHookInter#1758{(0.433/0.685) BEAM_HOOK}
+2025-09-23 15:58:40,358 INFO [LIB_00005819]       StepMonitoring.java:98   | REDUCTION
+2025-09-23 15:58:40,549 INFO [LIB_00005819]        ReductionStep.java:105  | Stems free length median value: 48 pixels, 2.5 interlines
+2025-09-23 15:58:40,554 INFO [LIB_00005819]       StepMonitoring.java:98   | CUE_BEAMS
+2025-09-23 15:58:40,554 INFO [LIB_00005819]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-09-23 15:58:40,555 INFO [LIB_00005819]       StepMonitoring.java:98   | TEXTS
+2025-09-23 15:58:40,745 WARN [LIB_00005819]         TesseractOCR.java:335  | The collection of supported languages is empty
+2025-09-23 15:58:40,745 INFO [LIB_00005819]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2025-09-23 15:58:40,783 INFO [LIB_00005819]       StepMonitoring.java:98   | MEASURES
+2025-09-23 15:58:40,851 INFO [LIB_00005819]                 Page.java:307  | 33 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 5 in system#4, 4 in system#5, 4 in system#6, 4 in system#7, 4 in system#8]
+2025-09-23 15:58:40,852 INFO [LIB_00005819]       StepMonitoring.java:98   | CHORDS
+2025-09-23 15:58:40,894 INFO [LIB_00005819]       StepMonitoring.java:98   | CURVES
+2025-09-23 15:58:41,808 INFO [LIB_00005819]         SlursBuilder.java:240  | Slurs: 3
+2025-09-23 15:58:41,856 INFO [LIB_00005819]      SegmentsBuilder.java:155  | Segments: 35
+2025-09-23 15:58:41,883 INFO [LIB_00005819]       StepMonitoring.java:98   | SYMBOLS
+2025-09-23 15:58:42,852 INFO [LIB_00005819]       StepMonitoring.java:98   | LINKS
+2025-09-23 15:58:42,966 INFO [LIB_00005819]       StepMonitoring.java:98   | RHYTHMS
+2025-09-23 15:58:42,993 INFO [LIB_00005819]                Voice.java:257  | Measure{#1} Voice{#1 excess:1/4} too long
+2025-09-23 15:58:42,995 INFO [LIB_00005819]          StackRhythm.java:224  | S1 MeasureStack#1 no correct rhythm
+2025-09-23 15:58:43,003 INFO [LIB_00005819]                Voice.java:257  | Measure{#2} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,003 INFO [LIB_00005819]          StackRhythm.java:224  | S1 MeasureStack#2 no correct rhythm
+2025-09-23 15:58:43,007 INFO [LIB_00005819]                Voice.java:257  | Measure{#3} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,008 INFO [LIB_00005819]          StackRhythm.java:224  | S1 MeasureStack#3 no correct rhythm
+2025-09-23 15:58:43,013 INFO [LIB_00005819]                Voice.java:257  | Measure{#4} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,013 INFO [LIB_00005819]          StackRhythm.java:224  | S1 MeasureStack#4 no correct rhythm
+2025-09-23 15:58:43,019 INFO [LIB_00005819]                Voice.java:257  | Measure{#5} Voice{#1 excess:1/4} too long
+2025-09-23 15:58:43,020 INFO [LIB_00005819]                Voice.java:257  | Measure{#5} Voice{#4 excess:1/8} too long
+2025-09-23 15:58:43,020 INFO [LIB_00005819]          StackRhythm.java:224  | S2 MeasureStack#5 no correct rhythm
+2025-09-23 15:58:43,023 INFO [LIB_00005819]                Voice.java:257  | Measure{#6} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,024 INFO [LIB_00005819]          StackRhythm.java:224  | S2 MeasureStack#6 no correct rhythm
+2025-09-23 15:58:43,028 INFO [LIB_00005819]                Voice.java:257  | Measure{#7} Voice{#4 excess:1/4} too long
+2025-09-23 15:58:43,028 INFO [LIB_00005819]          StackRhythm.java:224  | S2 MeasureStack#7 no correct rhythm
+2025-09-23 15:58:43,033 INFO [LIB_00005819]                Voice.java:257  | Measure{#8} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,033 INFO [LIB_00005819]          StackRhythm.java:224  | S2 MeasureStack#8 no correct rhythm
+2025-09-23 15:58:43,037 INFO [LIB_00005819]                Voice.java:257  | Measure{#9} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,038 INFO [LIB_00005819]          StackRhythm.java:224  | S3 MeasureStack#9 no correct rhythm
+2025-09-23 15:58:43,041 INFO [LIB_00005819]                Voice.java:257  | Measure{#10} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,041 INFO [LIB_00005819]          StackRhythm.java:224  | S3 MeasureStack#10 no correct rhythm
+2025-09-23 15:58:43,045 INFO [LIB_00005819]                Voice.java:257  | Measure{#11} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,045 INFO [LIB_00005819]          StackRhythm.java:224  | S3 MeasureStack#11 no correct rhythm
+2025-09-23 15:58:43,049 INFO [LIB_00005819]                Voice.java:257  | Measure{#12} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,050 INFO [LIB_00005819]          StackRhythm.java:224  | S3 MeasureStack#12 no correct rhythm
+2025-09-23 15:58:43,053 INFO [LIB_00005819]                Voice.java:257  | Measure{#13} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,053 INFO [LIB_00005819]          StackRhythm.java:224  | S4 MeasureStack#13 no correct rhythm
+2025-09-23 15:58:43,056 INFO [LIB_00005819]                Voice.java:257  | Measure{#14} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,057 INFO [LIB_00005819]          StackRhythm.java:224  | S4 MeasureStack#14 no correct rhythm
+2025-09-23 15:58:43,061 INFO [LIB_00005819]                Voice.java:257  | Measure{#15} Voice{#4 excess:1/8} too long
+2025-09-23 15:58:43,061 INFO [LIB_00005819]          StackRhythm.java:224  | S4 MeasureStack#15 no correct rhythm
+2025-09-23 15:58:43,064 INFO [LIB_00005819]                Voice.java:257  | Measure{#18} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,065 INFO [LIB_00005819]          StackRhythm.java:224  | S5 MeasureStack#18 no correct rhythm
+2025-09-23 15:58:43,068 INFO [LIB_00005819]                Voice.java:257  | Measure{#19} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,068 INFO [LIB_00005819]          StackRhythm.java:224  | S5 MeasureStack#19 no correct rhythm
+2025-09-23 15:58:43,072 INFO [LIB_00005819]                Voice.java:257  | Measure{#20} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,072 INFO [LIB_00005819]          StackRhythm.java:224  | S5 MeasureStack#20 no correct rhythm
+2025-09-23 15:58:43,075 INFO [LIB_00005819]                Voice.java:257  | Measure{#21} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,075 INFO [LIB_00005819]          StackRhythm.java:224  | S5 MeasureStack#21 no correct rhythm
+2025-09-23 15:58:43,078 INFO [LIB_00005819]                Voice.java:257  | Measure{#22} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,078 INFO [LIB_00005819]          StackRhythm.java:224  | S6 MeasureStack#22 no correct rhythm
+2025-09-23 15:58:43,081 INFO [LIB_00005819]                Voice.java:257  | Measure{#23} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,081 INFO [LIB_00005819]          StackRhythm.java:224  | S6 MeasureStack#23 no correct rhythm
+2025-09-23 15:58:43,084 INFO [LIB_00005819]                Voice.java:257  | Measure{#24} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,085 INFO [LIB_00005819]          StackRhythm.java:224  | S6 MeasureStack#24 no correct rhythm
+2025-09-23 15:58:43,087 INFO [LIB_00005819]                Voice.java:257  | Measure{#25} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,088 INFO [LIB_00005819]          StackRhythm.java:224  | S6 MeasureStack#25 no correct rhythm
+2025-09-23 15:58:43,090 INFO [LIB_00005819]                Voice.java:257  | Measure{#26} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,091 INFO [LIB_00005819]          StackRhythm.java:224  | S7 MeasureStack#26 no correct rhythm
+2025-09-23 15:58:43,094 INFO [LIB_00005819]                Voice.java:257  | Measure{#27} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,095 INFO [LIB_00005819]          StackRhythm.java:224  | S7 MeasureStack#27 no correct rhythm
+2025-09-23 15:58:43,097 INFO [LIB_00005819]                Voice.java:257  | Measure{#28} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,098 INFO [LIB_00005819]          StackRhythm.java:224  | S7 MeasureStack#28 no correct rhythm
+2025-09-23 15:58:43,100 INFO [LIB_00005819]                Voice.java:257  | Measure{#29} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,101 INFO [LIB_00005819]          StackRhythm.java:224  | S7 MeasureStack#29 no correct rhythm
+2025-09-23 15:58:43,103 INFO [LIB_00005819]                Voice.java:257  | Measure{#30} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,103 INFO [LIB_00005819]          StackRhythm.java:224  | S8 MeasureStack#30 no correct rhythm
+2025-09-23 15:58:43,106 INFO [LIB_00005819]                Voice.java:257  | Measure{#31} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,106 INFO [LIB_00005819]          StackRhythm.java:224  | S8 MeasureStack#31 no correct rhythm
+2025-09-23 15:58:43,109 INFO [LIB_00005819]                Voice.java:257  | Measure{#32} Voice{#4 excess:1/8} too long
+2025-09-23 15:58:43,109 INFO [LIB_00005819]          StackRhythm.java:224  | S8 MeasureStack#32 no correct rhythm
+2025-09-23 15:58:43,110 INFO [LIB_00005819]       StepMonitoring.java:98   | PAGE
+2025-09-23 15:58:43,137 INFO [LIB_00005819]                Voice.java:257  | Measure{#1} Voice{#1 excess:1/4} too long
+2025-09-23 15:58:43,137 INFO [LIB_00005819]                Voice.java:257  | Measure{#2} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,138 INFO [LIB_00005819]                Voice.java:257  | Measure{#3} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,138 INFO [LIB_00005819]                Voice.java:257  | Measure{#4} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,138 INFO [LIB_00005819]                Voice.java:257  | Measure{#5} Voice{#1 excess:1/4} too long
+2025-09-23 15:58:43,138 INFO [LIB_00005819]                Voice.java:257  | Measure{#5} Voice{#4 excess:1/8} too long
+2025-09-23 15:58:43,138 INFO [LIB_00005819]                Voice.java:257  | Measure{#6} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,138 INFO [LIB_00005819]                Voice.java:257  | Measure{#7} Voice{#4 excess:1/4} too long
+2025-09-23 15:58:43,138 INFO [LIB_00005819]                Voice.java:257  | Measure{#8} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,139 INFO [LIB_00005819]                Voice.java:257  | Measure{#9} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,139 INFO [LIB_00005819]                Voice.java:257  | Measure{#10} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,139 INFO [LIB_00005819]                Voice.java:257  | Measure{#11} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,139 INFO [LIB_00005819]                Voice.java:257  | Measure{#12} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,139 INFO [LIB_00005819]                Voice.java:257  | Measure{#13} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,139 INFO [LIB_00005819]                Voice.java:257  | Measure{#14} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,139 INFO [LIB_00005819]                Voice.java:257  | Measure{#15} Voice{#4 excess:1/8} too long
+2025-09-23 15:58:43,140 INFO [LIB_00005819]                Voice.java:257  | Measure{#18} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,140 INFO [LIB_00005819]                Voice.java:257  | Measure{#19} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,140 INFO [LIB_00005819]                Voice.java:257  | Measure{#20} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,141 INFO [LIB_00005819]                Voice.java:257  | Measure{#21} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,141 INFO [LIB_00005819]                Voice.java:257  | Measure{#22} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,141 INFO [LIB_00005819]                Voice.java:257  | Measure{#23} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,141 INFO [LIB_00005819]                Voice.java:257  | Measure{#24} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,142 INFO [LIB_00005819]                Voice.java:257  | Measure{#25} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,142 INFO [LIB_00005819]                Voice.java:257  | Measure{#26} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,142 INFO [LIB_00005819]                Voice.java:257  | Measure{#27} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,142 INFO [LIB_00005819]                Voice.java:257  | Measure{#28} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,143 INFO [LIB_00005819]                Voice.java:257  | Measure{#29} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,143 INFO [LIB_00005819]                Voice.java:257  | Measure{#30} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,143 INFO [LIB_00005819]                Voice.java:257  | Measure{#31} Voice{#5 excess:1/8} too long
+2025-09-23 15:58:43,143 INFO [LIB_00005819]                Voice.java:257  | Measure{#32} Voice{#4 excess:1/8} too long
+2025-09-23 15:58:43,144 INFO [LIB_00005819]                 Book.java:2550 | Book{LIB_00005819} storing
+2025-09-23 15:58:43,197 INFO [LIB_00005819]                 Book.java:2531 | Stored /book.xml
+2025-09-23 15:58:43,463 INFO [LIB_00005819]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2025-09-23 15:58:45,886 INFO [LIB_00005819]                Sheet.java:1562 | Stored /sheet#1/sheet#1.xml
+2025-09-23 15:58:45,887 INFO [LIB_00005819]                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/LIB_00005819.omr
+2025-09-23 15:58:45,889 INFO [LIB_00005819]            SheetStub.java:1644 | Disposed sheet
+2025-09-23 15:58:45,947 INFO [LIB_00005819]                 Book.java:2018 | End of Stub#1 memory: 32,697,152
+2025-09-23 15:58:45,948 INFO [LIB_00005819]                 Book.java:2025 | Book processed.
+2025-09-23 15:58:47,036 INFO [LIB_00005819]            SheetStub.java:995  | Loaded /sheet#1/sheet#1.xml
+2025-09-23 15:58:47,886 INFO [LIB_00005819]      PartwiseBuilder.java:2661 | Exporting sheet(s): [#1]
+2025-09-23 15:58:48,203 INFO [LIB_00005819]        ScoreExporter.java:164  | Score LIB_00005819 exported to /home/kaval/Documentos/dev/CONCER/python/outputs/LIB_00005819.mxl
+2025-09-23 15:58:48,254 INFO [LIB_00005819]                Score.java:181  | Closing {Score 1}

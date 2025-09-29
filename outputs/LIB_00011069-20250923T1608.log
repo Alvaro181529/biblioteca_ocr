@@ -1,0 +1,185 @@
+2025-09-23 16:08:28,674 INFO [LIB_00011069]                 Book.java:562  | 2 sheets in /home/kaval/Documentos/dev/CONCER/python/uploads/LIB_00011069.pdf
+2025-09-23 16:08:29,632 INFO []                 Book.java:2531 | Stored /book.xml
+2025-09-23 16:08:29,633 INFO []                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/LIB_00011069.omr
+2025-09-23 16:08:29,713 INFO []                 Book.java:1933 | Book reaching PAGE on sheets:[#1#2]
+2025-09-23 16:08:29,716 INFO [LIB_00011069#1]       StepMonitoring.java:98   | LOAD
+2025-09-23 16:08:31,492 INFO [LIB_00011069#1]            SheetStub.java:1268 | Loaded image #1 2550x3299 from /home/kaval/Documentos/dev/CONCER/python/uploads/LIB_00011069.pdf
+2025-09-23 16:08:31,496 INFO [LIB_00011069#1]       StepMonitoring.java:98   | BINARY
+2025-09-23 16:08:32,308 INFO [LIB_00011069#1]       StepMonitoring.java:98   | SCALE
+2025-09-23 16:08:32,398 INFO [LIB_00011069#1]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 20 interline
+2025-09-23 16:08:32,400 INFO [LIB_00011069#1]         ScaleBuilder.java:264  | Beam measured height: 11 -- 0.25 of [8..20] range at 171% of needed quorum
+2025-09-23 16:08:32,401 INFO [LIB_00011069#1]            ScaleStep.java:65   | Scale{ interline(18,20,21) line(4,6,8) beam(11)}
+2025-09-23 16:08:32,402 INFO [LIB_00011069#1]       StepMonitoring.java:98   | GRID
+2025-09-23 16:08:33,756 INFO [LIB_00011069#1]       LinesRetriever.java:1500 | Global slope: -0.00147
+2025-09-23 16:08:33,835 INFO [LIB_00011069#1]    ClustersRetriever.java:328  | Retrieved raw line clusters: 6 of sizes [5] with interline(18,20,21)
+2025-09-23 16:08:34,471 INFO [LIB_00011069#1]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5] #6[6]
+2025-09-23 16:08:35,523 INFO [LIB_00011069#1]        SystemManager.java:134  | Indentation detected for system #1
+2025-09-23 16:08:35,524 INFO [LIB_00011069#1]        SystemManager.java:779  | 1 part along 6 systems
+2025-09-23 16:08:35,525 INFO [LIB_00011069#1]                 Book.java:545  | Created scores: [{Score 1}]
+2025-09-23 16:08:35,525 INFO [LIB_00011069#1]       StepMonitoring.java:98   | HEADERS
+2025-09-23 16:08:37,195 INFO [LIB_00011069#1]      BasicClassifier.java:277  | Classifier loaded XML norms.
+2025-09-23 16:08:37,224 INFO [LIB_00011069#1]   AbstractClassifier.java:396  | Classifier data loaded from default uri file:///home/kaval/Documents/audiveris/app/res/basic-classifier.zip
+2025-09-23 16:08:38,878 INFO [LIB_00011069#1]       StepMonitoring.java:98   | STEM_SEEDS
+2025-09-23 16:08:39,316 INFO [LIB_00011069#1]        StemSeedsStep.java:86   | stem(5 max:7)
+2025-09-23 16:08:39,870 INFO [LIB_00011069#1]       StepMonitoring.java:98   | BEAMS
+2025-09-23 16:08:45,274 INFO [LIB_00011069#1]       StepMonitoring.java:98   | LEDGERS
+2025-09-23 16:08:46,057 INFO [LIB_00011069#1]       StepMonitoring.java:98   | HEADS
+2025-09-23 16:08:53,970 INFO [LIB_00011069#1]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:0.4,R:1.2] NOTEHEAD_BLACK[L:0.4,R:0.6]}
+2025-09-23 16:08:53,971 INFO [LIB_00011069#1]       StepMonitoring.java:98   | STEMS
+2025-09-23 16:08:55,061 INFO [LIB_00011069#1]           BeamLinker.java:1729 | Not linking shorter BeamInter#1336{(0.353/0.527) BEAM}
+2025-09-23 16:08:55,698 INFO [LIB_00011069#1]       StepMonitoring.java:98   | REDUCTION
+2025-09-23 16:08:55,919 INFO [LIB_00011069#1]        ReductionStep.java:105  | Stems free length median value: 52 pixels, 2.6 interlines
+2025-09-23 16:08:55,927 INFO [LIB_00011069#1]       StepMonitoring.java:98   | CUE_BEAMS
+2025-09-23 16:08:55,927 INFO [LIB_00011069#1]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-09-23 16:08:55,927 INFO [LIB_00011069#1]       StepMonitoring.java:98   | TEXTS
+2025-09-23 16:08:56,188 WARN [LIB_00011069#1]         TesseractOCR.java:335  | The collection of supported languages is empty
+2025-09-23 16:08:56,188 INFO [LIB_00011069#1]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2025-09-23 16:08:56,242 INFO [LIB_00011069#1]       StepMonitoring.java:98   | MEASURES
+2025-09-23 16:08:56,319 INFO [LIB_00011069#1]                 Page.java:307  | 30 raw measures: [5 in system#1, 5 in system#2, 5 in system#3, 4 in system#4, 6 in system#5, 5 in system#6]
+2025-09-23 16:08:56,319 INFO [LIB_00011069#1]       StepMonitoring.java:98   | CHORDS
+2025-09-23 16:08:56,364 INFO [LIB_00011069#1]       StepMonitoring.java:98   | CURVES
+2025-09-23 16:08:57,989 INFO [LIB_00011069#1]         SlursBuilder.java:240  | Slurs: 47
+2025-09-23 16:08:58,280 INFO [LIB_00011069#1]      SegmentsBuilder.java:155  | Segments: 33
+2025-09-23 16:08:58,291 INFO [LIB_00011069#1]       StepMonitoring.java:98   | SYMBOLS
+2025-09-23 16:09:01,457 INFO [LIB_00011069#1]       StepMonitoring.java:98   | LINKS
+2025-09-23 16:09:01,539 INFO [LIB_00011069#1]        SymbolsLinker.java:257  | No chord linked to OctaveShiftInter#9970{(0.220) staff:4 VENTIDUESIMA BASSA}
+2025-09-23 16:09:01,551 INFO [LIB_00011069#1]        SymbolsLinker.java:257  | No chord linked to OctaveShiftInter#10349{(0.220) staff:5 VENTIDUESIMA ALTA}
+2025-09-23 16:09:01,571 INFO [LIB_00011069#1]       StepMonitoring.java:98   | RHYTHMS
+2025-09-23 16:09:01,607 INFO [LIB_00011069#1]        MeasureRhythm.java:1045 | Measure{#6} No timeOffset for HeadChordInter#7395{(0.945/0.945) staff:2 slot#4 dur:1/4}
+2025-09-23 16:09:01,608 INFO [LIB_00011069#1]                Voice.java:257  | Measure{#6} Voice{#3 excess:1/4} too long
+2025-09-23 16:09:01,609 INFO [LIB_00011069#1]          StackRhythm.java:224  | S2 MeasureStack#6 no correct rhythm
+2025-09-23 16:09:01,615 INFO [LIB_00011069#1]        MeasureRhythm.java:1045 | Measure{#8} No timeOffset for HeadChordInter#7407{(0.924/0.924) staff:2 slot#4 dur:1/4}
+2025-09-23 16:09:01,616 INFO [LIB_00011069#1]   AbstractChordInter.java:627  | Measure{#8} No timeOffset for HeadChordInter#7407{(0.924/0.924) staff:2 slot#4 dur:1/4}
+2025-09-23 16:09:01,616 INFO [LIB_00011069#1]   AbstractChordInter.java:627  | Measure{#8} No timeOffset for HeadChordInter#7408{(0.558/0.558) staff:2 slot#5 dur:1/2}
+2025-09-23 16:09:01,616 INFO [LIB_00011069#1]   AbstractChordInter.java:627  | Measure{#8} No timeOffset for HeadChordInter#7409{(0.840/0.840) staff:2 slot#6 dur:1/4}
+2025-09-23 16:09:01,616 INFO [LIB_00011069#1]   AbstractChordInter.java:627  | Measure{#8} No timeOffset for HeadChordInter#7411{(0.930/0.930) staff:2 slot#8 dur:1/8}
+2025-09-23 16:09:01,617 INFO [LIB_00011069#1]   AbstractChordInter.java:627  | Measure{#8} No timeOffset for HeadChordInter#7412{(0.898/0.898) staff:2 slot#9 dur:1/8}
+2025-09-23 16:09:01,617 INFO [LIB_00011069#1]   AbstractChordInter.java:627  | Measure{#8} No timeOffset for HeadChordInter#7413{(0.828/0.828) staff:2 slot#10 dur:1/4}
+2025-09-23 16:09:01,617 INFO [LIB_00011069#1]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/4} too long
+2025-09-23 16:09:01,618 INFO [LIB_00011069#1]          StackRhythm.java:224  | S2 MeasureStack#8 no correct rhythm
+2025-09-23 16:09:01,631 INFO [LIB_00011069#1]        MeasureRhythm.java:1045 | Measure{#14} No timeOffset for HeadChordInter#7455{(0.930/0.930) staff:3 slot#4 dur:1/8}
+2025-09-23 16:09:01,631 INFO [LIB_00011069#1]   AbstractChordInter.java:627  | Measure{#14} No timeOffset for HeadChordInter#7455{(0.930/0.930) staff:3 slot#4 dur:1/8}
+2025-09-23 16:09:01,632 INFO [LIB_00011069#1]          StackRhythm.java:224  | S3 MeasureStack#14 no correct rhythm
+2025-09-23 16:09:01,635 INFO [LIB_00011069#1]        MeasureRhythm.java:1045 | Measure{#15} No timeOffset for HeadChordInter#7463{(0.932/0.932) staff:3 slot#4 dur:1/4}
+2025-09-23 16:09:01,636 INFO [LIB_00011069#1]        MeasureRhythm.java:1045 | Measure{#15} No timeOffset for HeadChordInter#7464{(0.942/0.942) staff:3 slot#4 dur:1/4}
+2025-09-23 16:09:01,636 INFO [LIB_00011069#1]          StackRhythm.java:224  | S3 MeasureStack#15 no correct rhythm
+2025-09-23 16:09:01,646 INFO [LIB_00011069#1]        MeasureRhythm.java:1045 | Measure{#19} No timeOffset for HeadChordInter#7491{(0.820/0.832) staff:4 slot#5 dur:1/2}
+2025-09-23 16:09:01,647 INFO [LIB_00011069#1]   AbstractChordInter.java:627  | Measure{#19} No timeOffset for HeadChordInter#7491{(0.820/0.832) staff:4 slot#5 dur:1/2}
+2025-09-23 16:09:01,647 INFO [LIB_00011069#1]   AbstractChordInter.java:627  | Measure{#19} No timeOffset for HeadChordInter#7492{(0.904/0.904) staff:4 slot#6 dur:1/4}
+2025-09-23 16:09:01,648 INFO [LIB_00011069#1]   AbstractChordInter.java:627  | Measure{#19} No timeOffset for HeadChordInter#7494{(0.945/0.945) staff:4 slot#8 dur:1/8}
+2025-09-23 16:09:01,649 INFO [LIB_00011069#1]   AbstractChordInter.java:627  | Measure{#19} No timeOffset for HeadChordInter#7495{(0.895/0.895) staff:4 slot#9 dur:1/8}
+2025-09-23 16:09:01,650 INFO [LIB_00011069#1]   AbstractChordInter.java:627  | Measure{#19} No timeOffset for HeadChordInter#7496{(0.903/0.903) staff:4 slot#10 dur:1/4}
+2025-09-23 16:09:01,650 INFO [LIB_00011069#1]                Voice.java:257  | Measure{#19} Voice{#1 excess:1/4} too long
+2025-09-23 16:09:01,650 INFO [LIB_00011069#1]          StackRhythm.java:224  | S4 MeasureStack#19 no correct rhythm
+2025-09-23 16:09:01,653 INFO [LIB_00011069#1]        MeasureRhythm.java:1045 | Measure{#21} No timeOffset for HeadChordInter#7502{(0.913/0.913) staff:5 slot#4 dur:1/4}
+2025-09-23 16:09:01,653 INFO [LIB_00011069#1]                Voice.java:257  | Measure{#21} Voice{#2 excess:1/4} too long
+2025-09-23 16:09:01,653 INFO [LIB_00011069#1]          StackRhythm.java:224  | S5 MeasureStack#21 no correct rhythm
+2025-09-23 16:09:01,654 INFO [LIB_00011069#1]        MeasureRhythm.java:1045 | Measure{#22} No timeOffset for HeadChordInter#7507{(0.871/0.871) staff:5 slot#5 dur:1/8}
+2025-09-23 16:09:01,655 INFO [LIB_00011069#1]   AbstractChordInter.java:627  | Measure{#22} No timeOffset for HeadChordInter#7507{(0.871/0.871) staff:5 slot#5 dur:1/8}
+2025-09-23 16:09:01,655 INFO [LIB_00011069#1]   AbstractChordInter.java:627  | Measure{#22} No timeOffset for HeadChordInter#7508{(0.922/0.922) staff:5 slot#6 dur:1/4}
+2025-09-23 16:09:01,656 INFO [LIB_00011069#1]          StackRhythm.java:224  | S5 MeasureStack#22 no correct rhythm
+2025-09-23 16:09:01,658 INFO [LIB_00011069#1]        MeasureRhythm.java:1045 | Measure{#23} No timeOffset for HeadChordInter#7515{(0.861/0.861) staff:5 slot#4 dur:1/2}
+2025-09-23 16:09:01,658 INFO [LIB_00011069#1]        MeasureRhythm.java:1045 | Measure{#23} No timeOffset for HeadChordInter#7514{(0.915/0.915) staff:5 slot#4 dur:1/4}
+2025-09-23 16:09:01,658 INFO [LIB_00011069#1]   AbstractChordInter.java:627  | Measure{#23} No timeOffset for HeadChordInter#7515{(0.861/0.861) staff:5 slot#4 dur:1/2}
+2025-09-23 16:09:01,659 INFO [LIB_00011069#1]   AbstractChordInter.java:627  | Measure{#23} No timeOffset for HeadChordInter#7514{(0.915/0.915) staff:5 slot#4 dur:1/4}
+2025-09-23 16:09:01,659 INFO [LIB_00011069#1]                Voice.java:257  | Measure{#23} Voice{#1 excess:1/4} too long
+2025-09-23 16:09:01,659 INFO [LIB_00011069#1]          StackRhythm.java:224  | S5 MeasureStack#23 no correct rhythm
+2025-09-23 16:09:01,661 INFO [LIB_00011069#1]                Voice.java:257  | Measure{#24} Voice{#1 excess:1/4} too long
+2025-09-23 16:09:01,661 INFO [LIB_00011069#1]          StackRhythm.java:224  | S5 MeasureStack#24 no correct rhythm
+2025-09-23 16:09:01,663 INFO [LIB_00011069#1]        MeasureRhythm.java:1045 | Measure{#25} No timeOffset for HeadChordInter#7530{(0.528/0.528) staff:5 slot#5 dur:1/2}
+2025-09-23 16:09:01,663 INFO [LIB_00011069#1]          StackRhythm.java:224  | S5 MeasureStack#25 no correct rhythm
+2025-09-23 16:09:01,671 INFO [LIB_00011069#1]       StepMonitoring.java:98   | PAGE
+2025-09-23 16:09:01,674 INFO [LIB_00011069#1]       SheetReduction.java:154  | Gutter. Different glyphs 4/5 BreathMarkInter#10034{(0.362/0.680) staff:4 BREATH_MARK} vs SlurInter#8168{(0.676/0.933) SLUR_ABOVE}
+2025-09-23 16:09:01,680 INFO [LIB_00011069#1]                Voice.java:257  | Measure{#6} Voice{#3 excess:1/4} too long
+2025-09-23 16:09:01,680 INFO [LIB_00011069#1]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/4} too long
+2025-09-23 16:09:01,681 INFO [LIB_00011069#1]                Voice.java:257  | Measure{#19} Voice{#1 excess:1/4} too long
+2025-09-23 16:09:01,681 INFO [LIB_00011069#1]                Voice.java:257  | Measure{#21} Voice{#2 excess:1/4} too long
+2025-09-23 16:09:01,681 INFO [LIB_00011069#1]                Voice.java:257  | Measure{#23} Voice{#1 excess:1/4} too long
+2025-09-23 16:09:01,681 INFO [LIB_00011069#1]                Voice.java:257  | Measure{#24} Voice{#1 excess:1/4} too long
+2025-09-23 16:09:01,682 INFO [LIB_00011069#1]                 Book.java:2550 | Book{LIB_00011069} storing
+2025-09-23 16:09:01,768 INFO [LIB_00011069#1]                 Book.java:2531 | Stored /book.xml
+2025-09-23 16:09:01,915 INFO [LIB_00011069#1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2025-09-23 16:09:03,116 INFO [LIB_00011069#1]                Sheet.java:1562 | Stored /sheet#1/sheet#1.xml
+2025-09-23 16:09:03,116 INFO [LIB_00011069#1]                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/LIB_00011069.omr
+2025-09-23 16:09:03,118 INFO [LIB_00011069#1]            SheetStub.java:1644 | Disposed sheet#1
+2025-09-23 16:09:03,172 INFO [LIB_00011069#1]                 Book.java:2018 | End of Stub#1 memory: 33,545,976
+2025-09-23 16:09:03,173 INFO [LIB_00011069#2]       StepMonitoring.java:98   | LOAD
+2025-09-23 16:09:03,883 INFO [LIB_00011069#2]            SheetStub.java:1268 | Loaded image #2 2550x3299 from /home/kaval/Documentos/dev/CONCER/python/uploads/LIB_00011069.pdf
+2025-09-23 16:09:03,884 INFO [LIB_00011069#2]       StepMonitoring.java:98   | BINARY
+2025-09-23 16:09:04,361 INFO [LIB_00011069#2]       StepMonitoring.java:98   | SCALE
+2025-09-23 16:09:04,370 INFO [LIB_00011069#2]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+2025-09-23 16:09:04,371 INFO [LIB_00011069#2]         ScaleBuilder.java:264  | Beam measured height: 17 -- 0.71 of [7..21] range at 80% of needed quorum
+2025-09-23 16:09:04,371 WARN [LIB_00011069#2]         ScaleBuilder.java:293  | No reliable beam height found, guessed value: 10
+2025-09-23 16:09:04,371 INFO [LIB_00011069#2]            ScaleStep.java:65   | Scale{ interline(19,21,22) line(3,5,7) beam(10 extra)}
+2025-09-23 16:09:04,371 INFO [LIB_00011069#2]       StepMonitoring.java:98   | GRID
+2025-09-23 16:09:05,078 INFO [LIB_00011069#2]       LinesRetriever.java:1500 | Global slope: -0.01202
+2025-09-23 16:09:05,099 INFO [LIB_00011069#2]    ClustersRetriever.java:853  | Destroying spurious Cluster#C76{interline(19,21,22) size:5 fil#23@0 fil#32@1 fil#50@2 fil#65@3 fil#76@4}
+2025-09-23 16:09:05,100 INFO [LIB_00011069#2]    ClustersRetriever.java:328  | Retrieved raw line clusters: 7 of sizes [5] with interline(19,21,22)
+2025-09-23 16:09:05,527 INFO [LIB_00011069#2]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5] #6[6] #7[7]
+2025-09-23 16:09:06,461 INFO [LIB_00011069#2]        SystemManager.java:779  | 1 part along 7 systems
+2025-09-23 16:09:06,462 INFO [LIB_00011069#2]       StepMonitoring.java:98   | HEADERS
+2025-09-23 16:09:06,891 INFO [LIB_00011069#2]       StepMonitoring.java:98   | STEM_SEEDS
+2025-09-23 16:09:06,935 INFO [LIB_00011069#2]        StemSeedsStep.java:86   | stem(5 max:7)
+2025-09-23 16:09:06,981 INFO [LIB_00011069#2]       StepMonitoring.java:98   | BEAMS
+2025-09-23 16:09:10,466 INFO [LIB_00011069#2]       StepMonitoring.java:98   | LEDGERS
+2025-09-23 16:09:10,999 INFO [LIB_00011069#2]       StepMonitoring.java:98   | HEADS
+2025-09-23 16:09:18,735 INFO [LIB_00011069#2]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:1.4,R:1.1] NOTEHEAD_BLACK[L:0.2,R:-0.3]}
+2025-09-23 16:09:18,735 INFO [LIB_00011069#2]       StepMonitoring.java:98   | STEMS
+2025-09-23 16:09:19,324 INFO [LIB_00011069#2]       StepMonitoring.java:98   | REDUCTION
+2025-09-23 16:09:19,383 INFO [LIB_00011069#2]        ReductionStep.java:105  | Stems free length median value: 54 pixels, 2.6 interlines
+2025-09-23 16:09:19,388 INFO [LIB_00011069#2]       StepMonitoring.java:98   | CUE_BEAMS
+2025-09-23 16:09:19,389 INFO [LIB_00011069#2]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-09-23 16:09:19,389 INFO [LIB_00011069#2]       StepMonitoring.java:98   | TEXTS
+2025-09-23 16:09:19,562 WARN [LIB_00011069#2]         TesseractOCR.java:335  | The collection of supported languages is empty
+2025-09-23 16:09:19,562 INFO [LIB_00011069#2]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2025-09-23 16:09:19,565 INFO [LIB_00011069#2]       StepMonitoring.java:98   | MEASURES
+2025-09-23 16:09:19,566 INFO [LIB_00011069#2]                 Page.java:307  | 39 raw measures: [5 in system#1, 7 in system#2, 6 in system#3, 5 in system#4, 5 in system#5, 6 in system#6, 5 in system#7]
+2025-09-23 16:09:19,567 INFO [LIB_00011069#2]       StepMonitoring.java:98   | CHORDS
+2025-09-23 16:09:19,576 INFO [LIB_00011069#2]       StepMonitoring.java:98   | CURVES
+2025-09-23 16:09:20,549 INFO [LIB_00011069#2]         SlursBuilder.java:240  | Slurs: 19
+2025-09-23 16:09:20,573 INFO [LIB_00011069#2]      SegmentsBuilder.java:155  | Segments: 21
+2025-09-23 16:09:20,576 INFO [LIB_00011069#2]       StepMonitoring.java:98   | SYMBOLS
+2025-09-23 16:09:22,584 INFO [LIB_00011069#2]       StepMonitoring.java:98   | LINKS
+2025-09-23 16:09:22,629 INFO [LIB_00011069#2]       StepMonitoring.java:98   | RHYTHMS
+2025-09-23 16:09:22,630 INFO [LIB_00011069#2]           PageRhythm.java:199  | {Page#2.1} Time value reused from sheet#1
+2025-09-23 16:09:22,632 INFO [LIB_00011069#2]        MeasureRhythm.java:1045 | Measure{#1} No timeOffset for HeadChordInter#6915{(0.943/0.943) staff:1 slot#4 dur:1/4}
+2025-09-23 16:09:22,633 INFO [LIB_00011069#2]        MeasureRhythm.java:1045 | Measure{#1} No timeOffset for HeadChordInter#6916{(0.933/0.933) staff:1 slot#4 dur:1/4}
+2025-09-23 16:09:22,633 INFO [LIB_00011069#2]          StackRhythm.java:224  | S1 MeasureStack#1 no correct rhythm
+2025-09-23 16:09:22,641 INFO [LIB_00011069#2]        MeasureRhythm.java:1045 | Measure{#7} No timeOffset for HeadChordInter#6947{(0.877/0.877) staff:2 slot#4 dur:1/4}
+2025-09-23 16:09:22,641 INFO [LIB_00011069#2]                Voice.java:257  | Measure{#7} Voice{#1 excess:1/4} too long
+2025-09-23 16:09:22,642 INFO [LIB_00011069#2]          StackRhythm.java:224  | S2 MeasureStack#7 no correct rhythm
+2025-09-23 16:09:22,642 INFO [LIB_00011069#2]        MeasureRhythm.java:1045 | Measure{#8} No timeOffset for HeadChordInter#6952{(0.887/0.887) staff:2 slot#4 dur:1/4}
+2025-09-23 16:09:22,643 INFO [LIB_00011069#2]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/4} too long
+2025-09-23 16:09:22,643 INFO [LIB_00011069#2]          StackRhythm.java:224  | S2 MeasureStack#8 no correct rhythm
+2025-09-23 16:09:22,647 INFO [LIB_00011069#2]        MeasureRhythm.java:1045 | Measure{#12} No timeOffset for HeadChordInter#6975{(0.924/0.924) staff:2 slot#4 dur:1/4}
+2025-09-23 16:09:22,648 INFO [LIB_00011069#2]        MeasureRhythm.java:1045 | Measure{#12} No timeOffset for HeadChordInter#6976{(0.912/0.912) staff:2 slot#4 dur:1/4}
+2025-09-23 16:09:22,648 INFO [LIB_00011069#2]                Voice.java:257  | Measure{#12} Voice{#2 excess:1/4} too long
+2025-09-23 16:09:22,648 INFO [LIB_00011069#2]          StackRhythm.java:224  | S2 MeasureStack#12 no correct rhythm
+2025-09-23 16:09:22,653 INFO [LIB_00011069#2]        MeasureRhythm.java:1045 | Measure{#16} No timeOffset for HeadChordInter#7000{(0.925/0.925) staff:3 slot#4 dur:1/4}
+2025-09-23 16:09:22,653 INFO [LIB_00011069#2]   AbstractChordInter.java:627  | Measure{#16} No timeOffset for HeadChordInter#7000{(0.925/0.925) staff:3 slot#4 dur:1/4}
+2025-09-23 16:09:22,653 INFO [LIB_00011069#2]   AbstractChordInter.java:627  | Measure{#16} No timeOffset for HeadChordInter#7001{(0.933/0.933) staff:3 slot#5 dur:1/4}
+2025-09-23 16:09:22,654 INFO [LIB_00011069#2]                Voice.java:257  | Measure{#16} Voice{#1 excess:1/8} too long
+2025-09-23 16:09:22,654 INFO [LIB_00011069#2]          StackRhythm.java:224  | S3 MeasureStack#16 no correct rhythm
+2025-09-23 16:09:22,661 INFO [LIB_00011069#2]        MeasureRhythm.java:1045 | Measure{#23} No timeOffset for HeadChordInter#7048{(0.522/0.522) staff:4 slot#7 dur:1/2}
+2025-09-23 16:09:22,661 INFO [LIB_00011069#2]          StackRhythm.java:224  | S4 MeasureStack#23 no correct rhythm
+2025-09-23 16:09:22,677 INFO [LIB_00011069#2]                Voice.java:257  | Measure{#37} Voice{#1 excess:1/4} too long
+2025-09-23 16:09:22,677 INFO [LIB_00011069#2]          StackRhythm.java:224  | S7 MeasureStack#37 no correct rhythm
+2025-09-23 16:09:22,679 INFO [LIB_00011069#2]       StepMonitoring.java:98   | PAGE
+2025-09-23 16:09:22,682 INFO [LIB_00011069#2]                Voice.java:257  | Measure{#7} Voice{#1 excess:1/4} too long
+2025-09-23 16:09:22,683 INFO [LIB_00011069#2]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/4} too long
+2025-09-23 16:09:22,684 INFO [LIB_00011069#2]                Voice.java:257  | Measure{#12} Voice{#2 excess:1/4} too long
+2025-09-23 16:09:22,685 INFO [LIB_00011069#2]                Voice.java:257  | Measure{#16} Voice{#1 excess:1/8} too long
+2025-09-23 16:09:22,686 INFO [LIB_00011069#2]                Voice.java:257  | Measure{#37} Voice{#1 excess:1/4} too long
+2025-09-23 16:09:22,687 INFO [LIB_00011069#2]                 Book.java:2550 | Book{LIB_00011069} storing
+2025-09-23 16:09:22,782 INFO [LIB_00011069#2]                 Book.java:2531 | Stored /book.xml
+2025-09-23 16:09:22,903 INFO [LIB_00011069#2]           DataHolder.java:348  | Stored /sheet#2/BINARY.png
+2025-09-23 16:09:23,621 INFO [LIB_00011069#2]                Sheet.java:1562 | Stored /sheet#2/sheet#2.xml
+2025-09-23 16:09:23,621 INFO [LIB_00011069#2]                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/LIB_00011069.omr
+2025-09-23 16:09:23,623 INFO [LIB_00011069#2]            SheetStub.java:1644 | Disposed sheet#2
+2025-09-23 16:09:23,671 INFO [LIB_00011069#2]                 Book.java:2018 | End of Stub#2 memory: 33,317,704
+2025-09-23 16:09:23,672 INFO [LIB_00011069]                 Book.java:2025 | Book processed.
+2025-09-23 16:09:24,743 INFO [LIB_00011069]            SheetStub.java:995  | Loaded /sheet#1/sheet#1.xml
+2025-09-23 16:09:25,225 INFO [LIB_00011069]            SheetStub.java:995  | Loaded /sheet#2/sheet#2.xml
+2025-09-23 16:09:25,984 INFO [LIB_00011069]      PartwiseBuilder.java:2661 | Exporting sheet(s): [#1#2]
+2025-09-23 16:09:26,241 INFO [LIB_00011069]        ScoreExporter.java:164  | Score LIB_00011069 exported to /home/kaval/Documentos/dev/CONCER/python/outputs/LIB_00011069.mxl
+2025-09-23 16:09:26,290 INFO [LIB_00011069]                Score.java:181  | Closing {Score 1}

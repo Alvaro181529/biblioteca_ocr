@@ -1,0 +1,70 @@
+2025-07-29 00:16:51,419 INFO [Mozar_Minuetto_Tarrega]                 Book.java:562  | 4 sheets in /home/kaval/Documentos/dev/CONCER/python/uploads/Mozar_Minuetto_Tarrega.pdf
+2025-07-29 00:16:51,625 INFO []                 Book.java:2531 | Stored /book.xml
+2025-07-29 00:16:51,625 INFO []                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/Mozar_Minuetto_Tarrega.omr
+2025-07-29 00:16:51,646 INFO []                 Book.java:1933 | Book reaching PAGE on sheets:[#1#2#3#4]
+2025-07-29 00:16:51,649 INFO [Mozar_Minuetto_Tarrega#1]       StepMonitoring.java:98   | LOAD
+2025-07-29 00:16:51,910 INFO [Mozar_Minuetto_Tarrega#1]            SheetStub.java:1268 | Loaded image #1 1316x1645 from /home/kaval/Documentos/dev/CONCER/python/uploads/Mozar_Minuetto_Tarrega.pdf
+2025-07-29 00:16:51,916 INFO [Mozar_Minuetto_Tarrega#1]       StepMonitoring.java:98   | BINARY
+2025-07-29 00:16:52,161 INFO [Mozar_Minuetto_Tarrega#1]       StepMonitoring.java:98   | SCALE
+2025-07-29 00:16:52,183 WARN [Mozar_Minuetto_Tarrega#1]            SheetStub.java:412  | Mozar_Minuetto_Tarrega#1   With a too low interline value of 10 pixels,  either this sheet contains no multi-line staves,  or the picture resolution is too low (try 300 DPI).   This interline value is NOT RELIABLE!
+2025-07-29 00:16:52,184 INFO [Mozar_Minuetto_Tarrega#1]                 Book.java:545  | Created scores: []
+2025-07-29 00:16:52,184 INFO [Mozar_Minuetto_Tarrega#1]            SheetStub.java:1186 | Sheet Mozar_Minuetto_Tarrega#1 flagged as invalid.
+2025-07-29 00:16:52,184 INFO [Mozar_Minuetto_Tarrega#1]            SheetStub.java:385  | Sheet closed
+2025-07-29 00:16:52,184 INFO [Mozar_Minuetto_Tarrega#1]            SheetStub.java:1394 | StepException cause detected in [LOAD, BINARY, SCALE, GRID, HEADERS, STEM_SEEDS, BEAMS, LEDGERS, HEADS, STEMS, REDUCTION, CUE_BEAMS, TEXTS, MEASURES, CHORDS, CURVES, SYMBOLS, LINKS, RHYTHMS, PAGE]
+2025-07-29 00:16:52,185 INFO [Mozar_Minuetto_Tarrega#1]                 Book.java:2550 | Book{Mozar_Minuetto_Tarrega} storing
+2025-07-29 00:16:52,201 INFO [Mozar_Minuetto_Tarrega#1]                 Book.java:2531 | Stored /book.xml
+2025-07-29 00:16:52,288 INFO [Mozar_Minuetto_Tarrega#1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2025-07-29 00:16:52,540 INFO [Mozar_Minuetto_Tarrega#1]                Sheet.java:1562 | Stored /sheet#1/sheet#1.xml
+2025-07-29 00:16:52,540 INFO [Mozar_Minuetto_Tarrega#1]                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/Mozar_Minuetto_Tarrega.omr
+2025-07-29 00:16:52,541 INFO [Mozar_Minuetto_Tarrega#1]            SheetStub.java:1644 | Disposed sheet#1
+2025-07-29 00:16:52,568 INFO [Mozar_Minuetto_Tarrega#1]                 Book.java:2018 | End of Stub#1 memory: 13,622,208
+2025-07-29 00:16:52,569 INFO [Mozar_Minuetto_Tarrega#2]       StepMonitoring.java:98   | LOAD
+2025-07-29 00:16:52,723 INFO [Mozar_Minuetto_Tarrega#2]            SheetStub.java:1268 | Loaded image #2 1316x1645 from /home/kaval/Documentos/dev/CONCER/python/uploads/Mozar_Minuetto_Tarrega.pdf
+2025-07-29 00:16:52,724 INFO [Mozar_Minuetto_Tarrega#2]       StepMonitoring.java:98   | BINARY
+2025-07-29 00:16:52,844 INFO [Mozar_Minuetto_Tarrega#2]       StepMonitoring.java:98   | SCALE
+2025-07-29 00:16:52,853 WARN [Mozar_Minuetto_Tarrega#2]            SheetStub.java:412  | Mozar_Minuetto_Tarrega#2   With a too low interline value of 9 pixels,  either this sheet contains no multi-line staves,  or the picture resolution is too low (try 300 DPI).   This interline value is NOT RELIABLE!
+2025-07-29 00:16:52,854 INFO [Mozar_Minuetto_Tarrega#2]                 Book.java:545  | Created scores: []
+2025-07-29 00:16:52,854 INFO [Mozar_Minuetto_Tarrega#2]            SheetStub.java:1186 | Sheet Mozar_Minuetto_Tarrega#2 flagged as invalid.
+2025-07-29 00:16:52,854 INFO [Mozar_Minuetto_Tarrega#2]            SheetStub.java:385  | Sheet closed
+2025-07-29 00:16:52,854 INFO [Mozar_Minuetto_Tarrega#2]            SheetStub.java:1394 | StepException cause detected in [LOAD, BINARY, SCALE, GRID, HEADERS, STEM_SEEDS, BEAMS, LEDGERS, HEADS, STEMS, REDUCTION, CUE_BEAMS, TEXTS, MEASURES, CHORDS, CURVES, SYMBOLS, LINKS, RHYTHMS, PAGE]
+2025-07-29 00:16:52,854 INFO [Mozar_Minuetto_Tarrega#2]                 Book.java:2550 | Book{Mozar_Minuetto_Tarrega} storing
+2025-07-29 00:16:52,870 INFO [Mozar_Minuetto_Tarrega#2]                 Book.java:2531 | Stored /book.xml
+2025-07-29 00:16:52,904 INFO [Mozar_Minuetto_Tarrega#2]           DataHolder.java:348  | Stored /sheet#2/BINARY.png
+2025-07-29 00:16:52,906 INFO [Mozar_Minuetto_Tarrega#2]                Sheet.java:1562 | Stored /sheet#2/sheet#2.xml
+2025-07-29 00:16:52,906 INFO [Mozar_Minuetto_Tarrega#2]                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/Mozar_Minuetto_Tarrega.omr
+2025-07-29 00:16:52,907 INFO [Mozar_Minuetto_Tarrega#2]            SheetStub.java:1644 | Disposed sheet#2
+2025-07-29 00:16:52,933 INFO [Mozar_Minuetto_Tarrega#2]                 Book.java:2018 | End of Stub#2 memory: 12,572,688
+2025-07-29 00:16:52,934 INFO [Mozar_Minuetto_Tarrega#3]       StepMonitoring.java:98   | LOAD
+2025-07-29 00:16:53,097 INFO [Mozar_Minuetto_Tarrega#3]            SheetStub.java:1268 | Loaded image #3 1316x1645 from /home/kaval/Documentos/dev/CONCER/python/uploads/Mozar_Minuetto_Tarrega.pdf
+2025-07-29 00:16:53,098 INFO [Mozar_Minuetto_Tarrega#3]       StepMonitoring.java:98   | BINARY
+2025-07-29 00:16:53,220 INFO [Mozar_Minuetto_Tarrega#3]       StepMonitoring.java:98   | SCALE
+2025-07-29 00:16:53,223 WARN [Mozar_Minuetto_Tarrega#3]            SheetStub.java:412  | Mozar_Minuetto_Tarrega#3   With a too low interline value of 9 pixels,  either this sheet contains no multi-line staves,  or the picture resolution is too low (try 300 DPI).   This interline value is NOT RELIABLE!
+2025-07-29 00:16:53,223 INFO [Mozar_Minuetto_Tarrega#3]                 Book.java:545  | Created scores: []
+2025-07-29 00:16:53,224 INFO [Mozar_Minuetto_Tarrega#3]            SheetStub.java:1186 | Sheet Mozar_Minuetto_Tarrega#3 flagged as invalid.
+2025-07-29 00:16:53,224 INFO [Mozar_Minuetto_Tarrega#3]            SheetStub.java:385  | Sheet closed
+2025-07-29 00:16:53,224 INFO [Mozar_Minuetto_Tarrega#3]            SheetStub.java:1394 | StepException cause detected in [LOAD, BINARY, SCALE, GRID, HEADERS, STEM_SEEDS, BEAMS, LEDGERS, HEADS, STEMS, REDUCTION, CUE_BEAMS, TEXTS, MEASURES, CHORDS, CURVES, SYMBOLS, LINKS, RHYTHMS, PAGE]
+2025-07-29 00:16:53,225 INFO [Mozar_Minuetto_Tarrega#3]                 Book.java:2550 | Book{Mozar_Minuetto_Tarrega} storing
+2025-07-29 00:16:53,240 INFO [Mozar_Minuetto_Tarrega#3]                 Book.java:2531 | Stored /book.xml
+2025-07-29 00:16:53,267 INFO [Mozar_Minuetto_Tarrega#3]           DataHolder.java:348  | Stored /sheet#3/BINARY.png
+2025-07-29 00:16:53,269 INFO [Mozar_Minuetto_Tarrega#3]                Sheet.java:1562 | Stored /sheet#3/sheet#3.xml
+2025-07-29 00:16:53,269 INFO [Mozar_Minuetto_Tarrega#3]                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/Mozar_Minuetto_Tarrega.omr
+2025-07-29 00:16:53,272 INFO [Mozar_Minuetto_Tarrega#3]            SheetStub.java:1644 | Disposed sheet#3
+2025-07-29 00:16:53,301 INFO [Mozar_Minuetto_Tarrega#3]                 Book.java:2018 | End of Stub#3 memory: 12,574,648
+2025-07-29 00:16:53,302 INFO [Mozar_Minuetto_Tarrega#4]       StepMonitoring.java:98   | LOAD
+2025-07-29 00:16:53,460 INFO [Mozar_Minuetto_Tarrega#4]            SheetStub.java:1268 | Loaded image #4 1316x1645 from /home/kaval/Documentos/dev/CONCER/python/uploads/Mozar_Minuetto_Tarrega.pdf
+2025-07-29 00:16:53,461 INFO [Mozar_Minuetto_Tarrega#4]       StepMonitoring.java:98   | BINARY
+2025-07-29 00:16:53,569 INFO [Mozar_Minuetto_Tarrega#4]       StepMonitoring.java:98   | SCALE
+2025-07-29 00:16:53,572 WARN [Mozar_Minuetto_Tarrega#4]            SheetStub.java:412  | Mozar_Minuetto_Tarrega#4   With a too low interline value of 9 pixels,  either this sheet contains no multi-line staves,  or the picture resolution is too low (try 300 DPI).   This interline value is NOT RELIABLE!
+2025-07-29 00:16:53,572 INFO [Mozar_Minuetto_Tarrega#4]                 Book.java:545  | Created scores: []
+2025-07-29 00:16:53,572 INFO [Mozar_Minuetto_Tarrega#4]            SheetStub.java:1186 | Sheet Mozar_Minuetto_Tarrega#4 flagged as invalid.
+2025-07-29 00:16:53,573 INFO [Mozar_Minuetto_Tarrega#4]            SheetStub.java:385  | Sheet closed
+2025-07-29 00:16:53,573 INFO [Mozar_Minuetto_Tarrega#4]            SheetStub.java:1394 | StepException cause detected in [LOAD, BINARY, SCALE, GRID, HEADERS, STEM_SEEDS, BEAMS, LEDGERS, HEADS, STEMS, REDUCTION, CUE_BEAMS, TEXTS, MEASURES, CHORDS, CURVES, SYMBOLS, LINKS, RHYTHMS, PAGE]
+2025-07-29 00:16:53,573 INFO [Mozar_Minuetto_Tarrega#4]                 Book.java:2550 | Book{Mozar_Minuetto_Tarrega} storing
+2025-07-29 00:16:53,588 INFO [Mozar_Minuetto_Tarrega#4]                 Book.java:2531 | Stored /book.xml
+2025-07-29 00:16:53,625 INFO [Mozar_Minuetto_Tarrega#4]           DataHolder.java:348  | Stored /sheet#4/BINARY.png
+2025-07-29 00:16:53,626 INFO [Mozar_Minuetto_Tarrega#4]                Sheet.java:1562 | Stored /sheet#4/sheet#4.xml
+2025-07-29 00:16:53,627 INFO [Mozar_Minuetto_Tarrega#4]                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/Mozar_Minuetto_Tarrega.omr
+2025-07-29 00:16:53,630 INFO [Mozar_Minuetto_Tarrega#4]            SheetStub.java:1644 | Disposed sheet#4
+2025-07-29 00:16:53,657 INFO [Mozar_Minuetto_Tarrega#4]                 Book.java:2018 | End of Stub#4 memory: 12,575,392
+2025-07-29 00:16:53,658 INFO [Mozar_Minuetto_Tarrega]                 Book.java:2025 | Book processed.
+2025-07-29 00:16:53,658 INFO [Mozar_Minuetto_Tarrega]                 Book.java:599  | Could not export since transcription did not complete successfully

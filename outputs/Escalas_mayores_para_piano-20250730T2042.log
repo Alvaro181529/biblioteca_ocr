@@ -1,0 +1,104 @@
+2025-07-30 20:42:02,020 INFO [Escalas_mayores_para_piano]                 Book.java:562  | 2 sheets in /home/kaval/Documentos/dev/CONCER/python/uploads/Escalas_mayores_para_piano.pdf
+2025-07-30 20:42:03,220 INFO []                 Book.java:2531 | Stored /book.xml
+2025-07-30 20:42:03,220 INFO []                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/Escalas_mayores_para_piano.omr
+2025-07-30 20:42:03,261 INFO []                 Book.java:1933 | Book reaching PAGE on sheets:[#1#2]
+2025-07-30 20:42:03,265 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | LOAD
+2025-07-30 20:42:04,097 INFO [Escalas_mayores_para_piano#1]            SheetStub.java:1268 | Loaded image #1 2479x3508 from /home/kaval/Documentos/dev/CONCER/python/uploads/Escalas_mayores_para_piano.pdf
+2025-07-30 20:42:04,105 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | BINARY
+2025-07-30 20:42:04,771 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | SCALE
+2025-07-30 20:42:04,832 INFO [Escalas_mayores_para_piano#1]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+2025-07-30 20:42:04,835 INFO [Escalas_mayores_para_piano#1]         ScaleBuilder.java:264  | Beam measured height:  9 -- 0.20 of [6..21] range at 59% of needed quorum
+2025-07-30 20:42:04,836 INFO [Escalas_mayores_para_piano#1]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(2,2,2) beam(9)}
+2025-07-30 20:42:04,840 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | GRID
+2025-07-30 20:42:05,490 INFO [Escalas_mayores_para_piano#1]       LinesRetriever.java:1500 | Global slope: 0.00000
+2025-07-30 20:42:05,529 INFO [Escalas_mayores_para_piano#1]    ClustersRetriever.java:328  | Retrieved raw line clusters: 10 of sizes [5] with interline(20,21,21)
+2025-07-30 20:42:05,722 INFO [Escalas_mayores_para_piano#1]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2025-07-30 20:42:06,035 INFO [Escalas_mayores_para_piano#1]        SystemManager.java:779  | 1 part along 5 systems
+2025-07-30 20:42:06,036 INFO [Escalas_mayores_para_piano#1]                 Book.java:545  | Created scores: [{Score 1}]
+2025-07-30 20:42:06,036 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | HEADERS
+2025-07-30 20:42:06,627 INFO [Escalas_mayores_para_piano#1]      BasicClassifier.java:277  | Classifier loaded XML norms.
+2025-07-30 20:42:06,631 INFO [Escalas_mayores_para_piano#1]   AbstractClassifier.java:396  | Classifier data loaded from default uri file:///home/kaval/Documents/audiveris/app/res/basic-classifier.zip
+2025-07-30 20:42:07,530 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | STEM_SEEDS
+2025-07-30 20:42:07,613 INFO [Escalas_mayores_para_piano#1]        StemSeedsStep.java:86   | stem(3 max:3)
+2025-07-30 20:42:07,701 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | BEAMS
+2025-07-30 20:42:11,046 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | LEDGERS
+2025-07-30 20:42:11,342 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | HEADS
+2025-07-30 20:42:17,312 INFO [Escalas_mayores_para_piano#1]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.5]}
+2025-07-30 20:42:17,313 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | STEMS
+2025-07-30 20:42:17,847 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | REDUCTION
+2025-07-30 20:42:17,967 INFO [Escalas_mayores_para_piano#1]        ReductionStep.java:105  | Stems free length median value: 73 pixels, 3.5 interlines
+2025-07-30 20:42:17,974 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | CUE_BEAMS
+2025-07-30 20:42:17,975 INFO [Escalas_mayores_para_piano#1]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-07-30 20:42:17,975 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | TEXTS
+2025-07-30 20:42:18,121 WARN [Escalas_mayores_para_piano#1]         TesseractOCR.java:335  | The collection of supported languages is empty
+2025-07-30 20:42:18,121 INFO [Escalas_mayores_para_piano#1]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2025-07-30 20:42:18,147 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | MEASURES
+2025-07-30 20:42:18,157 INFO [Escalas_mayores_para_piano#1]                 Page.java:307  | 20 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 4 in system#5]
+2025-07-30 20:42:18,158 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | CHORDS
+2025-07-30 20:42:18,187 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | CURVES
+2025-07-30 20:42:19,128 INFO [Escalas_mayores_para_piano#1]         SlursBuilder.java:240  | Slurs: 1
+2025-07-30 20:42:19,153 INFO [Escalas_mayores_para_piano#1]      SegmentsBuilder.java:155  | Segments: 20
+2025-07-30 20:42:19,166 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | SYMBOLS
+2025-07-30 20:42:20,115 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | LINKS
+2025-07-30 20:42:20,151 INFO [Escalas_mayores_para_piano#1]        SymbolsLinker.java:257  | No chord linked to OctaveShiftInter#3565{(0.353) staff:1 VENTIDUESIMA ALTA}
+2025-07-30 20:42:20,151 INFO [Escalas_mayores_para_piano#1]        SymbolsLinker.java:257  | No chord linked to OctaveShiftInter#3566{(0.144) staff:1 OTTAVA ALTA}
+2025-07-30 20:42:20,227 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | RHYTHMS
+2025-07-30 20:42:20,342 INFO [Escalas_mayores_para_piano#1]       StepMonitoring.java:98   | PAGE
+2025-07-30 20:42:20,353 INFO [Escalas_mayores_para_piano#1]                 Book.java:2550 | Book{Escalas_mayores_para_piano} storing
+2025-07-30 20:42:20,408 INFO [Escalas_mayores_para_piano#1]                 Book.java:2531 | Stored /book.xml
+2025-07-30 20:42:20,675 INFO [Escalas_mayores_para_piano#1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2025-07-30 20:42:21,317 INFO [Escalas_mayores_para_piano#1]                Sheet.java:1562 | Stored /sheet#1/sheet#1.xml
+2025-07-30 20:42:21,318 INFO [Escalas_mayores_para_piano#1]                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/Escalas_mayores_para_piano.omr
+2025-07-30 20:42:21,320 INFO [Escalas_mayores_para_piano#1]            SheetStub.java:1644 | Disposed sheet#1
+2025-07-30 20:42:21,400 INFO [Escalas_mayores_para_piano#1]                 Book.java:2018 | End of Stub#1 memory: 39,258,704
+2025-07-30 20:42:21,401 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | LOAD
+2025-07-30 20:42:21,497 INFO [Escalas_mayores_para_piano#2]            SheetStub.java:1268 | Loaded image #2 2479x3508 from /home/kaval/Documentos/dev/CONCER/python/uploads/Escalas_mayores_para_piano.pdf
+2025-07-30 20:42:21,498 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | BINARY
+2025-07-30 20:42:21,897 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | SCALE
+2025-07-30 20:42:21,924 INFO [Escalas_mayores_para_piano#2]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+2025-07-30 20:42:21,925 INFO [Escalas_mayores_para_piano#2]         ScaleBuilder.java:264  | Beam measured height:  8 -- 0.13 of [6..21] range at 106% of needed quorum
+2025-07-30 20:42:21,925 INFO [Escalas_mayores_para_piano#2]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(2,2,2) beam(8)}
+2025-07-30 20:42:21,925 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | GRID
+2025-07-30 20:42:22,152 INFO [Escalas_mayores_para_piano#2]       LinesRetriever.java:1500 | Global slope: 0.00000
+2025-07-30 20:42:22,177 INFO [Escalas_mayores_para_piano#2]    ClustersRetriever.java:328  | Retrieved raw line clusters: 10 of sizes [5] with interline(20,21,21)
+2025-07-30 20:42:22,290 INFO [Escalas_mayores_para_piano#2]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2025-07-30 20:42:22,447 INFO [Escalas_mayores_para_piano#2]        SystemManager.java:779  | 1 part along 5 systems
+2025-07-30 20:42:22,447 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | HEADERS
+2025-07-30 20:42:22,621 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | STEM_SEEDS
+2025-07-30 20:42:22,666 INFO [Escalas_mayores_para_piano#2]        StemSeedsStep.java:86   | stem(3 max:3)
+2025-07-30 20:42:22,683 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | BEAMS
+2025-07-30 20:42:25,151 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | LEDGERS
+2025-07-30 20:42:25,235 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | HEADS
+2025-07-30 20:42:31,200 INFO [Escalas_mayores_para_piano#2]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.5]}
+2025-07-30 20:42:31,201 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | STEMS
+2025-07-30 20:42:31,423 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | REDUCTION
+2025-07-30 20:42:31,490 INFO [Escalas_mayores_para_piano#2]        ReductionStep.java:105  | Stems free length median value: 73 pixels, 3.5 interlines
+2025-07-30 20:42:31,493 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | CUE_BEAMS
+2025-07-30 20:42:31,493 INFO [Escalas_mayores_para_piano#2]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-07-30 20:42:31,494 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | TEXTS
+2025-07-30 20:42:31,634 WARN [Escalas_mayores_para_piano#2]         TesseractOCR.java:335  | The collection of supported languages is empty
+2025-07-30 20:42:31,634 INFO [Escalas_mayores_para_piano#2]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2025-07-30 20:42:31,637 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | MEASURES
+2025-07-30 20:42:31,640 INFO [Escalas_mayores_para_piano#2]                 Page.java:307  | 20 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 4 in system#5]
+2025-07-30 20:42:31,641 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | CHORDS
+2025-07-30 20:42:31,653 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | CURVES
+2025-07-30 20:42:32,463 INFO [Escalas_mayores_para_piano#2]         SlursBuilder.java:240  | Slurs: 0
+2025-07-30 20:42:32,474 INFO [Escalas_mayores_para_piano#2]      SegmentsBuilder.java:155  | Segments: 18
+2025-07-30 20:42:32,475 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | SYMBOLS
+2025-07-30 20:42:33,004 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | LINKS
+2025-07-30 20:42:33,027 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | RHYTHMS
+2025-07-30 20:42:33,028 INFO [Escalas_mayores_para_piano#2]           PageRhythm.java:199  | {Page#2.1} Time value reused from sheet#1
+2025-07-30 20:42:33,065 INFO [Escalas_mayores_para_piano#2]       StepMonitoring.java:98   | PAGE
+2025-07-30 20:42:33,068 INFO [Escalas_mayores_para_piano#2]                 Book.java:2550 | Book{Escalas_mayores_para_piano} storing
+2025-07-30 20:42:33,110 INFO [Escalas_mayores_para_piano#2]                 Book.java:2531 | Stored /book.xml
+2025-07-30 20:42:33,221 INFO [Escalas_mayores_para_piano#2]           DataHolder.java:348  | Stored /sheet#2/BINARY.png
+2025-07-30 20:42:33,579 INFO [Escalas_mayores_para_piano#2]                Sheet.java:1562 | Stored /sheet#2/sheet#2.xml
+2025-07-30 20:42:33,580 INFO [Escalas_mayores_para_piano#2]                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/Escalas_mayores_para_piano.omr
+2025-07-30 20:42:33,582 INFO [Escalas_mayores_para_piano#2]            SheetStub.java:1644 | Disposed sheet#2
+2025-07-30 20:42:33,652 INFO [Escalas_mayores_para_piano#2]                 Book.java:2018 | End of Stub#2 memory: 39,462,392
+2025-07-30 20:42:33,653 INFO [Escalas_mayores_para_piano]                 Book.java:2025 | Book processed.
+2025-07-30 20:42:34,083 INFO [Escalas_mayores_para_piano]            SheetStub.java:995  | Loaded /sheet#1/sheet#1.xml
+2025-07-30 20:42:34,507 INFO [Escalas_mayores_para_piano]            SheetStub.java:995  | Loaded /sheet#2/sheet#2.xml
+2025-07-30 20:42:35,191 INFO [Escalas_mayores_para_piano]      PartwiseBuilder.java:2661 | Exporting sheet(s): [#1#2]
+2025-07-30 20:42:35,384 INFO [Escalas_mayores_para_piano]        ScoreExporter.java:164  | Score Escalas_mayores_para_piano exported to /home/kaval/Documentos/dev/CONCER/python/outputs/Escalas_mayores_para_piano.mxl
+2025-07-30 20:42:35,433 INFO [Escalas_mayores_para_piano]                Score.java:181  | Closing {Score 1}

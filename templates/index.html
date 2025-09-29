@@ -1,0 +1,91 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>OMR con FastAPI</title>
+</head>
+<body>
+    <h1>Sube una partitura en PDF</h1>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    <form action="/upload" enctype="multipart/form-data" method="post">
+        <input type="file" name="file" accept=".pdf" required>
+        <input type="submit" value="Convertir a MIDI">
+    </form>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>OMR con FastAPI</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/midi.js/0.3.0/midi.min.js" integrity="sha512-ep4Zu1sjPuVNVh9DvaHnw65KDtBer9JdsXHL4aouR1EgILTmhh9NRpn1xm6gHtQbknj5DOvKCXdqJKw/MLK/rQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <h1>Sube una partitura en PDF</h1>
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+
+    <form action="/upload" enctype="multipart/form-data" method="post">
+        <input type="file" name="file" accept=".pdf" required>
+        <input type="submit" value="Convertir a MIDI">
+    </form>
+
+    {% if midi_url %}
+        <h2>Reproducir MIDI</h2>
+        <button onclick="playMidi()">▶️ Reproducir</button>
+
+        <script>
+            function playMidi() {
+                MIDI.loadPlugin({
+                    soundfontUrl: "https://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/",
+                    instrument: "acoustic_grand_piano",
+                    onsuccess: function() {
+                        MIDI.Player.loadFile("{{ midi_url }}", MIDI.Player.start);
+                    }
+                });
+            }
+        </script>
+    {% endif %}
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>OMR con FastAPI</title>
+    {% if midi_url %}
+    <!-- Solo carga los scripts si hay midi_url -->
+    <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.5.0"></script>
+    {% endif %}
+</head>
+<body>
+    <h1>Sube una partitura en PDF</h1>
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+
+    <form action="/upload" enctype="multipart/form-data" method="post">
+        <input type="file" name="file" accept=".pdf" required />
+        <input type="submit" value="Convertir a MIDI" />
+    </form>
+
+    {% if midi_url %}
+        <h2>Reproducir MIDI</h2>
+
+        <midi-player
+            src="{{ midi_url }}"
+            sound-font
+            visualizer="#myVisualizer"
+            controls>
+        </midi-player>
+        <midi-visualizer type="staff" id="myVisualizer"></midi-visualizer>
+    {% endif %}
+</body>
+</html>

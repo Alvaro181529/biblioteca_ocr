@@ -1,0 +1,104 @@
+2025-08-04 02:17:13,812 INFO [PAR_00000001]                 Book.java:562  | 2 sheets in /home/kaval/Documentos/dev/CONCER/python/uploads/PAR_00000001.pdf
+2025-08-04 02:17:14,642 INFO []                 Book.java:2531 | Stored /book.xml
+2025-08-04 02:17:14,643 INFO []                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/PAR_00000001.omr
+2025-08-04 02:17:14,670 INFO []                 Book.java:1933 | Book reaching PAGE on sheets:[#1#2]
+2025-08-04 02:17:14,688 INFO [PAR_00000001#1]       StepMonitoring.java:98   | LOAD
+2025-08-04 02:17:15,817 INFO [PAR_00000001#1]            SheetStub.java:1268 | Loaded image #1 2479x3508 from /home/kaval/Documentos/dev/CONCER/python/uploads/PAR_00000001.pdf
+2025-08-04 02:17:15,822 INFO [PAR_00000001#1]       StepMonitoring.java:98   | BINARY
+2025-08-04 02:17:16,579 INFO [PAR_00000001#1]       StepMonitoring.java:98   | SCALE
+2025-08-04 02:17:16,647 INFO [PAR_00000001#1]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+2025-08-04 02:17:16,650 INFO [PAR_00000001#1]         ScaleBuilder.java:264  | Beam measured height:  9 -- 0.20 of [6..21] range at 59% of needed quorum
+2025-08-04 02:17:16,651 INFO [PAR_00000001#1]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(2,2,2) beam(9)}
+2025-08-04 02:17:16,652 INFO [PAR_00000001#1]       StepMonitoring.java:98   | GRID
+2025-08-04 02:17:17,181 INFO [PAR_00000001#1]       LinesRetriever.java:1500 | Global slope: 0.00000
+2025-08-04 02:17:17,209 INFO [PAR_00000001#1]    ClustersRetriever.java:328  | Retrieved raw line clusters: 10 of sizes [5] with interline(20,21,21)
+2025-08-04 02:17:17,405 INFO [PAR_00000001#1]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2025-08-04 02:17:17,744 INFO [PAR_00000001#1]        SystemManager.java:779  | 1 part along 5 systems
+2025-08-04 02:17:17,745 INFO [PAR_00000001#1]                 Book.java:545  | Created scores: [{Score 1}]
+2025-08-04 02:17:17,745 INFO [PAR_00000001#1]       StepMonitoring.java:98   | HEADERS
+2025-08-04 02:17:18,109 INFO [PAR_00000001#1]      BasicClassifier.java:277  | Classifier loaded XML norms.
+2025-08-04 02:17:18,205 INFO [PAR_00000001#1]   AbstractClassifier.java:396  | Classifier data loaded from default uri file:///home/kaval/Documents/audiveris/app/res/basic-classifier.zip
+2025-08-04 02:17:18,823 INFO [PAR_00000001#1]       StepMonitoring.java:98   | STEM_SEEDS
+2025-08-04 02:17:18,893 INFO [PAR_00000001#1]        StemSeedsStep.java:86   | stem(3 max:3)
+2025-08-04 02:17:18,947 INFO [PAR_00000001#1]       StepMonitoring.java:98   | BEAMS
+2025-08-04 02:17:22,095 INFO [PAR_00000001#1]       StepMonitoring.java:98   | LEDGERS
+2025-08-04 02:17:22,346 INFO [PAR_00000001#1]       StepMonitoring.java:98   | HEADS
+2025-08-04 02:17:27,919 INFO [PAR_00000001#1]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.5]}
+2025-08-04 02:17:27,920 INFO [PAR_00000001#1]       StepMonitoring.java:98   | STEMS
+2025-08-04 02:17:28,349 INFO [PAR_00000001#1]       StepMonitoring.java:98   | REDUCTION
+2025-08-04 02:17:28,418 INFO [PAR_00000001#1]        ReductionStep.java:105  | Stems free length median value: 73 pixels, 3.5 interlines
+2025-08-04 02:17:28,421 INFO [PAR_00000001#1]       StepMonitoring.java:98   | CUE_BEAMS
+2025-08-04 02:17:28,422 INFO [PAR_00000001#1]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-08-04 02:17:28,422 INFO [PAR_00000001#1]       StepMonitoring.java:98   | TEXTS
+2025-08-04 02:17:28,560 WARN [PAR_00000001#1]         TesseractOCR.java:335  | The collection of supported languages is empty
+2025-08-04 02:17:28,561 INFO [PAR_00000001#1]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2025-08-04 02:17:28,569 INFO [PAR_00000001#1]       StepMonitoring.java:98   | MEASURES
+2025-08-04 02:17:28,592 INFO [PAR_00000001#1]                 Page.java:307  | 20 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 4 in system#5]
+2025-08-04 02:17:28,592 INFO [PAR_00000001#1]       StepMonitoring.java:98   | CHORDS
+2025-08-04 02:17:28,610 INFO [PAR_00000001#1]       StepMonitoring.java:98   | CURVES
+2025-08-04 02:17:29,645 INFO [PAR_00000001#1]         SlursBuilder.java:240  | Slurs: 1
+2025-08-04 02:17:29,661 INFO [PAR_00000001#1]      SegmentsBuilder.java:155  | Segments: 20
+2025-08-04 02:17:29,668 INFO [PAR_00000001#1]       StepMonitoring.java:98   | SYMBOLS
+2025-08-04 02:17:30,482 INFO [PAR_00000001#1]       StepMonitoring.java:98   | LINKS
+2025-08-04 02:17:30,512 INFO [PAR_00000001#1]        SymbolsLinker.java:257  | No chord linked to OctaveShiftInter#3551{(0.353) staff:1 VENTIDUESIMA ALTA}
+2025-08-04 02:17:30,513 INFO [PAR_00000001#1]        SymbolsLinker.java:257  | No chord linked to OctaveShiftInter#3552{(0.144) staff:1 OTTAVA ALTA}
+2025-08-04 02:17:30,575 INFO [PAR_00000001#1]       StepMonitoring.java:98   | RHYTHMS
+2025-08-04 02:17:31,044 INFO [PAR_00000001#1]       StepMonitoring.java:98   | PAGE
+2025-08-04 02:17:31,067 INFO [PAR_00000001#1]                 Book.java:2550 | Book{PAR_00000001} storing
+2025-08-04 02:17:31,129 INFO [PAR_00000001#1]                 Book.java:2531 | Stored /book.xml
+2025-08-04 02:17:31,650 INFO [PAR_00000001#1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2025-08-04 02:17:32,578 INFO [PAR_00000001#1]                Sheet.java:1562 | Stored /sheet#1/sheet#1.xml
+2025-08-04 02:17:32,578 INFO [PAR_00000001#1]                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/PAR_00000001.omr
+2025-08-04 02:17:32,580 INFO [PAR_00000001#1]            SheetStub.java:1644 | Disposed sheet#1
+2025-08-04 02:17:32,630 INFO [PAR_00000001#1]                 Book.java:2018 | End of Stub#1 memory: 40,131,696
+2025-08-04 02:17:32,631 INFO [PAR_00000001#2]       StepMonitoring.java:98   | LOAD
+2025-08-04 02:17:32,711 INFO [PAR_00000001#2]            SheetStub.java:1268 | Loaded image #2 2479x3508 from /home/kaval/Documentos/dev/CONCER/python/uploads/PAR_00000001.pdf
+2025-08-04 02:17:32,712 INFO [PAR_00000001#2]       StepMonitoring.java:98   | BINARY
+2025-08-04 02:17:33,102 INFO [PAR_00000001#2]       StepMonitoring.java:98   | SCALE
+2025-08-04 02:17:33,135 INFO [PAR_00000001#2]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+2025-08-04 02:17:33,136 INFO [PAR_00000001#2]         ScaleBuilder.java:264  | Beam measured height:  8 -- 0.13 of [6..21] range at 106% of needed quorum
+2025-08-04 02:17:33,136 INFO [PAR_00000001#2]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(2,2,2) beam(8)}
+2025-08-04 02:17:33,136 INFO [PAR_00000001#2]       StepMonitoring.java:98   | GRID
+2025-08-04 02:17:33,334 INFO [PAR_00000001#2]       LinesRetriever.java:1500 | Global slope: 0.00000
+2025-08-04 02:17:33,351 INFO [PAR_00000001#2]    ClustersRetriever.java:328  | Retrieved raw line clusters: 10 of sizes [5] with interline(20,21,21)
+2025-08-04 02:17:33,411 INFO [PAR_00000001#2]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8] #5[9, 10]
+2025-08-04 02:17:33,536 INFO [PAR_00000001#2]        SystemManager.java:779  | 1 part along 5 systems
+2025-08-04 02:17:33,537 INFO [PAR_00000001#2]       StepMonitoring.java:98   | HEADERS
+2025-08-04 02:17:33,708 INFO [PAR_00000001#2]       StepMonitoring.java:98   | STEM_SEEDS
+2025-08-04 02:17:33,769 INFO [PAR_00000001#2]        StemSeedsStep.java:86   | stem(3 max:3)
+2025-08-04 02:17:33,797 INFO [PAR_00000001#2]       StepMonitoring.java:98   | BEAMS
+2025-08-04 02:17:36,100 INFO [PAR_00000001#2]       StepMonitoring.java:98   | LEDGERS
+2025-08-04 02:17:36,225 INFO [PAR_00000001#2]       StepMonitoring.java:98   | HEADS
+2025-08-04 02:17:42,015 INFO [PAR_00000001#2]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5,R:-0.5]}
+2025-08-04 02:17:42,016 INFO [PAR_00000001#2]       StepMonitoring.java:98   | STEMS
+2025-08-04 02:17:42,204 INFO [PAR_00000001#2]       StepMonitoring.java:98   | REDUCTION
+2025-08-04 02:17:42,231 INFO [PAR_00000001#2]        ReductionStep.java:105  | Stems free length median value: 73 pixels, 3.5 interlines
+2025-08-04 02:17:42,233 INFO [PAR_00000001#2]       StepMonitoring.java:98   | CUE_BEAMS
+2025-08-04 02:17:42,234 INFO [PAR_00000001#2]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-08-04 02:17:42,234 INFO [PAR_00000001#2]       StepMonitoring.java:98   | TEXTS
+2025-08-04 02:17:42,317 WARN [PAR_00000001#2]         TesseractOCR.java:335  | The collection of supported languages is empty
+2025-08-04 02:17:42,317 INFO [PAR_00000001#2]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2025-08-04 02:17:42,319 INFO [PAR_00000001#2]       StepMonitoring.java:98   | MEASURES
+2025-08-04 02:17:42,322 INFO [PAR_00000001#2]                 Page.java:307  | 20 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 4 in system#5]
+2025-08-04 02:17:42,322 INFO [PAR_00000001#2]       StepMonitoring.java:98   | CHORDS
+2025-08-04 02:17:42,329 INFO [PAR_00000001#2]       StepMonitoring.java:98   | CURVES
+2025-08-04 02:17:43,003 INFO [PAR_00000001#2]         SlursBuilder.java:240  | Slurs: 0
+2025-08-04 02:17:43,012 INFO [PAR_00000001#2]      SegmentsBuilder.java:155  | Segments: 18
+2025-08-04 02:17:43,013 INFO [PAR_00000001#2]       StepMonitoring.java:98   | SYMBOLS
+2025-08-04 02:17:43,459 INFO [PAR_00000001#2]       StepMonitoring.java:98   | LINKS
+2025-08-04 02:17:43,475 INFO [PAR_00000001#2]       StepMonitoring.java:98   | RHYTHMS
+2025-08-04 02:17:43,475 INFO [PAR_00000001#2]           PageRhythm.java:199  | {Page#2.1} Time value reused from sheet#1
+2025-08-04 02:17:43,497 INFO [PAR_00000001#2]       StepMonitoring.java:98   | PAGE
+2025-08-04 02:17:43,498 INFO [PAR_00000001#2]                 Book.java:2550 | Book{PAR_00000001} storing
+2025-08-04 02:17:43,537 INFO [PAR_00000001#2]                 Book.java:2531 | Stored /book.xml
+2025-08-04 02:17:43,620 INFO [PAR_00000001#2]           DataHolder.java:348  | Stored /sheet#2/BINARY.png
+2025-08-04 02:17:43,924 INFO [PAR_00000001#2]                Sheet.java:1562 | Stored /sheet#2/sheet#2.xml
+2025-08-04 02:17:43,924 INFO [PAR_00000001#2]                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/PAR_00000001.omr
+2025-08-04 02:17:43,926 INFO [PAR_00000001#2]            SheetStub.java:1644 | Disposed sheet#2
+2025-08-04 02:17:44,022 INFO [PAR_00000001#2]                 Book.java:2018 | End of Stub#2 memory: 39,284,680
+2025-08-04 02:17:44,023 INFO [PAR_00000001]                 Book.java:2025 | Book processed.
+2025-08-04 02:17:44,639 INFO [PAR_00000001]            SheetStub.java:995  | Loaded /sheet#1/sheet#1.xml
+2025-08-04 02:17:44,905 INFO [PAR_00000001]            SheetStub.java:995  | Loaded /sheet#2/sheet#2.xml
+2025-08-04 02:17:45,954 INFO [PAR_00000001]      PartwiseBuilder.java:2661 | Exporting sheet(s): [#1#2]
+2025-08-04 02:17:46,153 INFO [PAR_00000001]        ScoreExporter.java:164  | Score PAR_00000001 exported to /home/kaval/Documentos/dev/CONCER/python/outputs/PAR_00000001.mxl
+2025-08-04 02:17:46,205 INFO [PAR_00000001]                Score.java:181  | Closing {Score 1}

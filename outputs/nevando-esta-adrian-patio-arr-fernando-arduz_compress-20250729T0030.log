@@ -1,0 +1,185 @@
+2025-07-29 00:30:40,599 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress]                 Book.java:562  | 2 sheets in /home/kaval/Documentos/dev/CONCER/python/uploads/nevando-esta-adrian-patio-arr-fernando-arduz_compress.pdf
+2025-07-29 00:30:40,834 INFO []                 Book.java:2531 | Stored /book.xml
+2025-07-29 00:30:40,836 INFO []                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/nevando-esta-adrian-patio-arr-fernando-arduz_compress.omr
+2025-07-29 00:30:40,861 INFO []                 Book.java:1933 | Book reaching PAGE on sheets:[#1#2]
+2025-07-29 00:30:40,863 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | LOAD
+2025-07-29 00:30:41,852 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]            SheetStub.java:1268 | Loaded image #1 2550x3299 from /home/kaval/Documentos/dev/CONCER/python/uploads/nevando-esta-adrian-patio-arr-fernando-arduz_compress.pdf
+2025-07-29 00:30:41,856 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | BINARY
+2025-07-29 00:30:42,378 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | SCALE
+2025-07-29 00:30:42,408 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 20 interline
+2025-07-29 00:30:42,410 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]         ScaleBuilder.java:264  | Beam measured height: 11 -- 0.25 of [8..20] range at 171% of needed quorum
+2025-07-29 00:30:42,410 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]            ScaleStep.java:65   | Scale{ interline(18,20,21) line(4,6,8) beam(11)}
+2025-07-29 00:30:42,411 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | GRID
+2025-07-29 00:30:43,470 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       LinesRetriever.java:1500 | Global slope: -0.00147
+2025-07-29 00:30:43,525 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]    ClustersRetriever.java:328  | Retrieved raw line clusters: 6 of sizes [5] with interline(18,20,21)
+2025-07-29 00:30:44,032 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5] #6[6]
+2025-07-29 00:30:45,036 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        SystemManager.java:134  | Indentation detected for system #1
+2025-07-29 00:30:45,038 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        SystemManager.java:779  | 1 part along 6 systems
+2025-07-29 00:30:45,039 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                 Book.java:545  | Created scores: [{Score 1}]
+2025-07-29 00:30:45,040 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | HEADERS
+2025-07-29 00:30:45,332 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]      BasicClassifier.java:277  | Classifier loaded XML norms.
+2025-07-29 00:30:45,336 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractClassifier.java:396  | Classifier data loaded from default uri file:///home/kaval/Documents/audiveris/app/res/basic-classifier.zip
+2025-07-29 00:30:45,975 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | STEM_SEEDS
+2025-07-29 00:30:46,050 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        StemSeedsStep.java:86   | stem(5 max:7)
+2025-07-29 00:30:46,178 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | BEAMS
+2025-07-29 00:30:50,810 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | LEDGERS
+2025-07-29 00:30:51,702 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | HEADS
+2025-07-29 00:30:59,852 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:0.4,R:1.2] NOTEHEAD_BLACK[L:0.4,R:0.6]}
+2025-07-29 00:30:59,852 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | STEMS
+2025-07-29 00:31:00,585 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]           BeamLinker.java:1729 | Not linking shorter BeamInter#1336{(0.353/0.527) BEAM}
+2025-07-29 00:31:01,353 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | REDUCTION
+2025-07-29 00:31:01,516 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        ReductionStep.java:105  | Stems free length median value: 52 pixels, 2.6 interlines
+2025-07-29 00:31:01,524 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | CUE_BEAMS
+2025-07-29 00:31:01,525 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-07-29 00:31:01,525 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | TEXTS
+2025-07-29 00:31:01,829 WARN [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]         TesseractOCR.java:335  | The collection of supported languages is empty
+2025-07-29 00:31:01,829 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2025-07-29 00:31:01,843 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | MEASURES
+2025-07-29 00:31:01,852 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                 Page.java:307  | 30 raw measures: [5 in system#1, 5 in system#2, 5 in system#3, 4 in system#4, 6 in system#5, 5 in system#6]
+2025-07-29 00:31:01,853 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | CHORDS
+2025-07-29 00:31:01,875 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | CURVES
+2025-07-29 00:31:03,620 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]         SlursBuilder.java:240  | Slurs: 47
+2025-07-29 00:31:03,815 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]      SegmentsBuilder.java:155  | Segments: 33
+2025-07-29 00:31:03,825 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | SYMBOLS
+2025-07-29 00:31:06,761 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | LINKS
+2025-07-29 00:31:06,814 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        SymbolsLinker.java:257  | No chord linked to OctaveShiftInter#10015{(0.220) staff:4 VENTIDUESIMA BASSA}
+2025-07-29 00:31:06,828 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        SymbolsLinker.java:257  | No chord linked to OctaveShiftInter#10394{(0.220) staff:5 VENTIDUESIMA ALTA}
+2025-07-29 00:31:06,852 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | RHYTHMS
+2025-07-29 00:31:06,897 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        MeasureRhythm.java:1045 | Measure{#6} No timeOffset for HeadChordInter#7440{(0.945/0.945) staff:2 slot#4 dur:1/4}
+2025-07-29 00:31:06,898 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                Voice.java:257  | Measure{#6} Voice{#3 excess:1/4} too long
+2025-07-29 00:31:06,899 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]          StackRhythm.java:224  | S2 MeasureStack#6 no correct rhythm
+2025-07-29 00:31:06,908 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        MeasureRhythm.java:1045 | Measure{#8} No timeOffset for HeadChordInter#7452{(0.924/0.924) staff:2 slot#4 dur:1/4}
+2025-07-29 00:31:06,909 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractChordInter.java:627  | Measure{#8} No timeOffset for HeadChordInter#7452{(0.924/0.924) staff:2 slot#4 dur:1/4}
+2025-07-29 00:31:06,910 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractChordInter.java:627  | Measure{#8} No timeOffset for HeadChordInter#7453{(0.558/0.558) staff:2 slot#5 dur:1/2}
+2025-07-29 00:31:06,911 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractChordInter.java:627  | Measure{#8} No timeOffset for HeadChordInter#7454{(0.840/0.840) staff:2 slot#6 dur:1/4}
+2025-07-29 00:31:06,912 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractChordInter.java:627  | Measure{#8} No timeOffset for HeadChordInter#7456{(0.930/0.930) staff:2 slot#8 dur:1/8}
+2025-07-29 00:31:06,912 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractChordInter.java:627  | Measure{#8} No timeOffset for HeadChordInter#7457{(0.898/0.898) staff:2 slot#9 dur:1/8}
+2025-07-29 00:31:06,913 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractChordInter.java:627  | Measure{#8} No timeOffset for HeadChordInter#7458{(0.828/0.828) staff:2 slot#10 dur:1/4}
+2025-07-29 00:31:06,913 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/4} too long
+2025-07-29 00:31:06,913 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]          StackRhythm.java:224  | S2 MeasureStack#8 no correct rhythm
+2025-07-29 00:31:06,930 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        MeasureRhythm.java:1045 | Measure{#14} No timeOffset for HeadChordInter#7500{(0.930/0.930) staff:3 slot#4 dur:1/8}
+2025-07-29 00:31:06,931 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractChordInter.java:627  | Measure{#14} No timeOffset for HeadChordInter#7500{(0.930/0.930) staff:3 slot#4 dur:1/8}
+2025-07-29 00:31:06,931 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]          StackRhythm.java:224  | S3 MeasureStack#14 no correct rhythm
+2025-07-29 00:31:06,933 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        MeasureRhythm.java:1045 | Measure{#15} No timeOffset for HeadChordInter#7508{(0.932/0.932) staff:3 slot#4 dur:1/4}
+2025-07-29 00:31:06,934 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        MeasureRhythm.java:1045 | Measure{#15} No timeOffset for HeadChordInter#7509{(0.942/0.942) staff:3 slot#4 dur:1/4}
+2025-07-29 00:31:06,935 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]          StackRhythm.java:224  | S3 MeasureStack#15 no correct rhythm
+2025-07-29 00:31:06,951 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        MeasureRhythm.java:1045 | Measure{#19} No timeOffset for HeadChordInter#7536{(0.820/0.832) staff:4 slot#5 dur:1/2}
+2025-07-29 00:31:06,952 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractChordInter.java:627  | Measure{#19} No timeOffset for HeadChordInter#7536{(0.820/0.832) staff:4 slot#5 dur:1/2}
+2025-07-29 00:31:06,952 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractChordInter.java:627  | Measure{#19} No timeOffset for HeadChordInter#7537{(0.904/0.904) staff:4 slot#6 dur:1/4}
+2025-07-29 00:31:06,953 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractChordInter.java:627  | Measure{#19} No timeOffset for HeadChordInter#7539{(0.945/0.945) staff:4 slot#8 dur:1/8}
+2025-07-29 00:31:06,954 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractChordInter.java:627  | Measure{#19} No timeOffset for HeadChordInter#7540{(0.895/0.895) staff:4 slot#9 dur:1/8}
+2025-07-29 00:31:06,954 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractChordInter.java:627  | Measure{#19} No timeOffset for HeadChordInter#7541{(0.903/0.903) staff:4 slot#10 dur:1/4}
+2025-07-29 00:31:06,955 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                Voice.java:257  | Measure{#19} Voice{#1 excess:1/4} too long
+2025-07-29 00:31:06,956 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]          StackRhythm.java:224  | S4 MeasureStack#19 no correct rhythm
+2025-07-29 00:31:06,958 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        MeasureRhythm.java:1045 | Measure{#21} No timeOffset for HeadChordInter#7547{(0.913/0.913) staff:5 slot#4 dur:1/4}
+2025-07-29 00:31:06,959 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                Voice.java:257  | Measure{#21} Voice{#2 excess:1/4} too long
+2025-07-29 00:31:06,959 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]          StackRhythm.java:224  | S5 MeasureStack#21 no correct rhythm
+2025-07-29 00:31:06,961 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        MeasureRhythm.java:1045 | Measure{#22} No timeOffset for HeadChordInter#7552{(0.871/0.871) staff:5 slot#5 dur:1/8}
+2025-07-29 00:31:06,961 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractChordInter.java:627  | Measure{#22} No timeOffset for HeadChordInter#7552{(0.871/0.871) staff:5 slot#5 dur:1/8}
+2025-07-29 00:31:06,962 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractChordInter.java:627  | Measure{#22} No timeOffset for HeadChordInter#7553{(0.922/0.922) staff:5 slot#6 dur:1/4}
+2025-07-29 00:31:06,962 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]          StackRhythm.java:224  | S5 MeasureStack#22 no correct rhythm
+2025-07-29 00:31:06,964 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        MeasureRhythm.java:1045 | Measure{#23} No timeOffset for HeadChordInter#7560{(0.861/0.861) staff:5 slot#4 dur:1/2}
+2025-07-29 00:31:06,964 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        MeasureRhythm.java:1045 | Measure{#23} No timeOffset for HeadChordInter#7559{(0.915/0.915) staff:5 slot#4 dur:1/4}
+2025-07-29 00:31:06,965 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractChordInter.java:627  | Measure{#23} No timeOffset for HeadChordInter#7560{(0.861/0.861) staff:5 slot#4 dur:1/2}
+2025-07-29 00:31:06,965 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]   AbstractChordInter.java:627  | Measure{#23} No timeOffset for HeadChordInter#7559{(0.915/0.915) staff:5 slot#4 dur:1/4}
+2025-07-29 00:31:06,965 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                Voice.java:257  | Measure{#23} Voice{#1 excess:1/4} too long
+2025-07-29 00:31:06,966 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]          StackRhythm.java:224  | S5 MeasureStack#23 no correct rhythm
+2025-07-29 00:31:06,969 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                Voice.java:257  | Measure{#24} Voice{#1 excess:1/4} too long
+2025-07-29 00:31:06,970 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]          StackRhythm.java:224  | S5 MeasureStack#24 no correct rhythm
+2025-07-29 00:31:06,972 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]        MeasureRhythm.java:1045 | Measure{#25} No timeOffset for HeadChordInter#7575{(0.528/0.528) staff:5 slot#5 dur:1/2}
+2025-07-29 00:31:06,973 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]          StackRhythm.java:224  | S5 MeasureStack#25 no correct rhythm
+2025-07-29 00:31:06,985 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       StepMonitoring.java:98   | PAGE
+2025-07-29 00:31:06,990 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]       SheetReduction.java:154  | Gutter. Different glyphs 4/5 BreathMarkInter#10079{(0.362/0.680) staff:4 BREATH_MARK} vs SlurInter#8213{(0.676/0.933) SLUR_ABOVE}
+2025-07-29 00:31:06,996 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                Voice.java:257  | Measure{#6} Voice{#3 excess:1/4} too long
+2025-07-29 00:31:06,997 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/4} too long
+2025-07-29 00:31:06,997 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                Voice.java:257  | Measure{#19} Voice{#1 excess:1/4} too long
+2025-07-29 00:31:06,998 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                Voice.java:257  | Measure{#21} Voice{#2 excess:1/4} too long
+2025-07-29 00:31:06,998 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                Voice.java:257  | Measure{#23} Voice{#1 excess:1/4} too long
+2025-07-29 00:31:06,998 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                Voice.java:257  | Measure{#24} Voice{#1 excess:1/4} too long
+2025-07-29 00:31:07,000 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                 Book.java:2550 | Book{nevando-esta-adrian-patio-arr-fernando-arduz_compress} storing
+2025-07-29 00:31:07,101 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                 Book.java:2531 | Stored /book.xml
+2025-07-29 00:31:07,249 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2025-07-29 00:31:08,330 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                Sheet.java:1562 | Stored /sheet#1/sheet#1.xml
+2025-07-29 00:31:08,330 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/nevando-esta-adrian-patio-arr-fernando-arduz_compress.omr
+2025-07-29 00:31:08,332 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]            SheetStub.java:1644 | Disposed sheet#1
+2025-07-29 00:31:08,385 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#1]                 Book.java:2018 | End of Stub#1 memory: 33,695,904
+2025-07-29 00:31:08,387 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | LOAD
+2025-07-29 00:31:09,122 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]            SheetStub.java:1268 | Loaded image #2 2550x3299 from /home/kaval/Documentos/dev/CONCER/python/uploads/nevando-esta-adrian-patio-arr-fernando-arduz_compress.pdf
+2025-07-29 00:31:09,123 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | BINARY
+2025-07-29 00:31:09,682 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | SCALE
+2025-07-29 00:31:09,694 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+2025-07-29 00:31:09,695 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]         ScaleBuilder.java:264  | Beam measured height: 17 -- 0.71 of [7..21] range at 80% of needed quorum
+2025-07-29 00:31:09,695 WARN [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]         ScaleBuilder.java:293  | No reliable beam height found, guessed value: 10
+2025-07-29 00:31:09,695 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]            ScaleStep.java:65   | Scale{ interline(19,21,22) line(3,5,7) beam(10 extra)}
+2025-07-29 00:31:09,695 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | GRID
+2025-07-29 00:31:10,445 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       LinesRetriever.java:1500 | Global slope: -0.01202
+2025-07-29 00:31:10,472 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]    ClustersRetriever.java:853  | Destroying spurious Cluster#C76{interline(19,21,22) size:5 fil#23@0 fil#32@1 fil#50@2 fil#65@3 fil#76@4}
+2025-07-29 00:31:10,475 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]    ClustersRetriever.java:328  | Retrieved raw line clusters: 7 of sizes [5] with interline(19,21,22)
+2025-07-29 00:31:10,934 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5] #6[6] #7[7]
+2025-07-29 00:31:11,706 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]        SystemManager.java:779  | 1 part along 7 systems
+2025-07-29 00:31:11,707 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | HEADERS
+2025-07-29 00:31:12,142 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | STEM_SEEDS
+2025-07-29 00:31:12,178 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]        StemSeedsStep.java:86   | stem(5 max:7)
+2025-07-29 00:31:12,213 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | BEAMS
+2025-07-29 00:31:15,668 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | LEDGERS
+2025-07-29 00:31:16,166 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | HEADS
+2025-07-29 00:31:24,142 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:1.4,R:1.1] NOTEHEAD_BLACK[L:0.2,R:-0.3]}
+2025-07-29 00:31:24,142 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | STEMS
+2025-07-29 00:31:24,897 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | REDUCTION
+2025-07-29 00:31:24,962 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]        ReductionStep.java:105  | Stems free length median value: 54 pixels, 2.6 interlines
+2025-07-29 00:31:24,966 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | CUE_BEAMS
+2025-07-29 00:31:24,967 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-07-29 00:31:24,968 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | TEXTS
+2025-07-29 00:31:25,098 WARN [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]         TesseractOCR.java:335  | The collection of supported languages is empty
+2025-07-29 00:31:25,098 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2025-07-29 00:31:25,102 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | MEASURES
+2025-07-29 00:31:25,104 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]                 Page.java:307  | 39 raw measures: [5 in system#1, 7 in system#2, 6 in system#3, 5 in system#4, 5 in system#5, 6 in system#6, 5 in system#7]
+2025-07-29 00:31:25,105 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | CHORDS
+2025-07-29 00:31:25,120 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | CURVES
+2025-07-29 00:31:26,121 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]         SlursBuilder.java:240  | Slurs: 19
+2025-07-29 00:31:26,137 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]      SegmentsBuilder.java:155  | Segments: 21
+2025-07-29 00:31:26,140 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | SYMBOLS
+2025-07-29 00:31:28,297 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | LINKS
+2025-07-29 00:31:28,343 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | RHYTHMS
+2025-07-29 00:31:28,343 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]           PageRhythm.java:199  | {Page#2.1} Time value reused from sheet#1
+2025-07-29 00:31:28,345 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]        MeasureRhythm.java:1045 | Measure{#1} No timeOffset for HeadChordInter#6941{(0.943/0.943) staff:1 slot#4 dur:1/4}
+2025-07-29 00:31:28,345 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]        MeasureRhythm.java:1045 | Measure{#1} No timeOffset for HeadChordInter#6942{(0.933/0.933) staff:1 slot#4 dur:1/4}
+2025-07-29 00:31:28,346 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]          StackRhythm.java:224  | S1 MeasureStack#1 no correct rhythm
+2025-07-29 00:31:28,353 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]        MeasureRhythm.java:1045 | Measure{#7} No timeOffset for HeadChordInter#6973{(0.877/0.877) staff:2 slot#4 dur:1/4}
+2025-07-29 00:31:28,354 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]                Voice.java:257  | Measure{#7} Voice{#1 excess:1/4} too long
+2025-07-29 00:31:28,354 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]          StackRhythm.java:224  | S2 MeasureStack#7 no correct rhythm
+2025-07-29 00:31:28,356 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]        MeasureRhythm.java:1045 | Measure{#8} No timeOffset for HeadChordInter#6978{(0.887/0.887) staff:2 slot#4 dur:1/4}
+2025-07-29 00:31:28,356 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/4} too long
+2025-07-29 00:31:28,356 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]          StackRhythm.java:224  | S2 MeasureStack#8 no correct rhythm
+2025-07-29 00:31:28,360 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]        MeasureRhythm.java:1045 | Measure{#12} No timeOffset for HeadChordInter#7001{(0.924/0.924) staff:2 slot#4 dur:1/4}
+2025-07-29 00:31:28,360 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]        MeasureRhythm.java:1045 | Measure{#12} No timeOffset for HeadChordInter#7002{(0.912/0.912) staff:2 slot#4 dur:1/4}
+2025-07-29 00:31:28,360 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]                Voice.java:257  | Measure{#12} Voice{#2 excess:1/4} too long
+2025-07-29 00:31:28,361 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]          StackRhythm.java:224  | S2 MeasureStack#12 no correct rhythm
+2025-07-29 00:31:28,364 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]        MeasureRhythm.java:1045 | Measure{#16} No timeOffset for HeadChordInter#7026{(0.925/0.925) staff:3 slot#4 dur:1/4}
+2025-07-29 00:31:28,364 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]   AbstractChordInter.java:627  | Measure{#16} No timeOffset for HeadChordInter#7026{(0.925/0.925) staff:3 slot#4 dur:1/4}
+2025-07-29 00:31:28,364 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]   AbstractChordInter.java:627  | Measure{#16} No timeOffset for HeadChordInter#7027{(0.933/0.933) staff:3 slot#5 dur:1/4}
+2025-07-29 00:31:28,365 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]                Voice.java:257  | Measure{#16} Voice{#1 excess:1/8} too long
+2025-07-29 00:31:28,365 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]          StackRhythm.java:224  | S3 MeasureStack#16 no correct rhythm
+2025-07-29 00:31:28,374 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]        MeasureRhythm.java:1045 | Measure{#23} No timeOffset for HeadChordInter#7074{(0.522/0.522) staff:4 slot#7 dur:1/2}
+2025-07-29 00:31:28,374 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]          StackRhythm.java:224  | S4 MeasureStack#23 no correct rhythm
+2025-07-29 00:31:28,388 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]                Voice.java:257  | Measure{#37} Voice{#1 excess:1/4} too long
+2025-07-29 00:31:28,388 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]          StackRhythm.java:224  | S7 MeasureStack#37 no correct rhythm
+2025-07-29 00:31:28,390 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]       StepMonitoring.java:98   | PAGE
+2025-07-29 00:31:28,395 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]                Voice.java:257  | Measure{#7} Voice{#1 excess:1/4} too long
+2025-07-29 00:31:28,395 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/4} too long
+2025-07-29 00:31:28,396 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]                Voice.java:257  | Measure{#12} Voice{#2 excess:1/4} too long
+2025-07-29 00:31:28,396 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]                Voice.java:257  | Measure{#16} Voice{#1 excess:1/8} too long
+2025-07-29 00:31:28,397 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]                Voice.java:257  | Measure{#37} Voice{#1 excess:1/4} too long
+2025-07-29 00:31:28,397 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]                 Book.java:2550 | Book{nevando-esta-adrian-patio-arr-fernando-arduz_compress} storing
+2025-07-29 00:31:28,488 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]                 Book.java:2531 | Stored /book.xml
+2025-07-29 00:31:28,627 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]           DataHolder.java:348  | Stored /sheet#2/BINARY.png
+2025-07-29 00:31:29,364 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]                Sheet.java:1562 | Stored /sheet#2/sheet#2.xml
+2025-07-29 00:31:29,364 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/nevando-esta-adrian-patio-arr-fernando-arduz_compress.omr
+2025-07-29 00:31:29,367 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]            SheetStub.java:1644 | Disposed sheet#2
+2025-07-29 00:31:29,427 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress#2]                 Book.java:2018 | End of Stub#2 memory: 33,202,768
+2025-07-29 00:31:29,428 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress]                 Book.java:2025 | Book processed.
+2025-07-29 00:31:30,332 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress]            SheetStub.java:995  | Loaded /sheet#1/sheet#1.xml
+2025-07-29 00:31:30,944 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress]            SheetStub.java:995  | Loaded /sheet#2/sheet#2.xml
+2025-07-29 00:31:31,399 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress]      PartwiseBuilder.java:2661 | Exporting sheet(s): [#1#2]
+2025-07-29 00:31:31,601 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress]        ScoreExporter.java:164  | Score nevando-esta-adrian-patio-arr-fernando-arduz_compress exported to /home/kaval/Documentos/dev/CONCER/python/outputs/nevando-esta-adrian-patio-arr-fernando-arduz_compress.mxl
+2025-07-29 00:31:31,655 INFO [nevando-esta-adrian-patio-arr-fernando-arduz_compress]                Score.java:181  | Closing {Score 1}

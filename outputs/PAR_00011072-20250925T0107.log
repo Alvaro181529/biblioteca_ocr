@@ -1,0 +1,141 @@
+2025-09-25 01:07:20,230 INFO [PAR_00011072]                 Book.java:562  | 2 sheets in /home/kaval/Documentos/dev/CONCER/python/uploads/PAR_00011072.pdf
+2025-09-25 01:07:21,365 INFO []                 Book.java:2531 | Stored /book.xml
+2025-09-25 01:07:21,366 INFO []                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/PAR_00011072.omr
+2025-09-25 01:07:21,422 INFO []                 Book.java:1933 | Book reaching PAGE on sheets:[#1#2]
+2025-09-25 01:07:21,424 INFO [PAR_00011072#1]       StepMonitoring.java:98   | LOAD
+2025-09-25 01:07:24,132 INFO [PAR_00011072#1]            SheetStub.java:1268 | Loaded image #1 2424x3299 from /home/kaval/Documentos/dev/CONCER/python/uploads/PAR_00011072.pdf
+2025-09-25 01:07:24,154 INFO [PAR_00011072#1]       StepMonitoring.java:98   | BINARY
+2025-09-25 01:07:24,991 INFO [PAR_00011072#1]       StepMonitoring.java:98   | SCALE
+2025-09-25 01:07:25,169 INFO [PAR_00011072#1]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 20 interline
+2025-09-25 01:07:25,171 INFO [PAR_00011072#1]         ScaleBuilder.java:264  | Beam measured height:  8 -- 0.14 of [6..20] range at 505% of needed quorum
+2025-09-25 01:07:25,172 INFO [PAR_00011072#1]            ScaleStep.java:65   | Scale{ interline(18,20,21) line(2,4,6) beam(8)}
+2025-09-25 01:07:25,174 INFO [PAR_00011072#1]       StepMonitoring.java:98   | GRID
+2025-09-25 01:07:26,283 INFO [PAR_00011072#1]       LinesRetriever.java:1500 | Global slope: -0.00818
+2025-09-25 01:07:26,330 INFO [PAR_00011072#1]    ClustersRetriever.java:328  | Retrieved raw line clusters: 5 of sizes [5] with interline(18,20,21)
+2025-09-25 01:07:26,584 INFO [PAR_00011072#1]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5]
+2025-09-25 01:07:27,275 INFO [PAR_00011072#1]        SystemManager.java:134  | Indentation detected for system #1
+2025-09-25 01:07:27,277 INFO [PAR_00011072#1]        SystemManager.java:779  | 1 part along 5 systems
+2025-09-25 01:07:27,278 INFO [PAR_00011072#1]                 Book.java:545  | Created scores: [{Score 1}]
+2025-09-25 01:07:27,279 INFO [PAR_00011072#1]       StepMonitoring.java:98   | HEADERS
+2025-09-25 01:07:27,749 INFO [PAR_00011072#1]      BasicClassifier.java:277  | Classifier loaded XML norms.
+2025-09-25 01:07:27,752 INFO [PAR_00011072#1]   AbstractClassifier.java:396  | Classifier data loaded from default uri file:///home/kaval/Documents/audiveris/app/res/basic-classifier.zip
+2025-09-25 01:07:29,089 INFO [PAR_00011072#1]       StepMonitoring.java:98   | STEM_SEEDS
+2025-09-25 01:07:29,239 INFO [PAR_00011072#1]        StemSeedsStep.java:86   | stem(4 max:5)
+2025-09-25 01:07:29,340 INFO [PAR_00011072#1]       StepMonitoring.java:98   | BEAMS
+2025-09-25 01:07:32,936 INFO [PAR_00011072#1]       StepMonitoring.java:98   | LEDGERS
+2025-09-25 01:07:33,734 INFO [PAR_00011072#1]       StepMonitoring.java:98   | HEADS
+2025-09-25 01:07:37,343 INFO [PAR_00011072#1]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:0.5,R:0.4]}
+2025-09-25 01:07:37,344 INFO [PAR_00011072#1]       StepMonitoring.java:98   | STEMS
+2025-09-25 01:07:37,593 INFO [PAR_00011072#1]           BeamLinker.java:1729 | Not linking shorter BeamHookInter#1516{(0.501/0.805) BEAM_HOOK}
+2025-09-25 01:07:37,594 INFO [PAR_00011072#1]           BeamLinker.java:1729 | Not linking shorter BeamInter#1518{(0.471/0.786) BEAM}
+2025-09-25 01:07:38,647 INFO [PAR_00011072#1]       StepMonitoring.java:98   | REDUCTION
+2025-09-25 01:07:38,801 INFO [PAR_00011072#1]        ReductionStep.java:105  | Stems free length median value: 60 pixels, 3.0 interlines
+2025-09-25 01:07:38,808 INFO [PAR_00011072#1]       StepMonitoring.java:98   | CUE_BEAMS
+2025-09-25 01:07:38,808 INFO [PAR_00011072#1]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-09-25 01:07:38,809 INFO [PAR_00011072#1]       StepMonitoring.java:98   | TEXTS
+2025-09-25 01:07:38,987 WARN [PAR_00011072#1]         TesseractOCR.java:335  | The collection of supported languages is empty
+2025-09-25 01:07:38,987 INFO [PAR_00011072#1]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2025-09-25 01:07:39,002 INFO [PAR_00011072#1]       StepMonitoring.java:98   | MEASURES
+2025-09-25 01:07:39,031 INFO [PAR_00011072#1]                 Page.java:307  | 35 raw measures: [6 in system#1, 7 in system#2, 7 in system#3, 8 in system#4, 7 in system#5]
+2025-09-25 01:07:39,032 INFO [PAR_00011072#1]       StepMonitoring.java:98   | CHORDS
+2025-09-25 01:07:39,054 INFO [PAR_00011072#1]       StepMonitoring.java:98   | CURVES
+2025-09-25 01:07:40,292 INFO [PAR_00011072#1]         SlursBuilder.java:240  | Slurs: 13
+2025-09-25 01:07:40,359 INFO [PAR_00011072#1]      SegmentsBuilder.java:155  | Segments: 54
+2025-09-25 01:07:40,368 INFO [PAR_00011072#1]       StepMonitoring.java:98   | SYMBOLS
+2025-09-25 01:07:42,244 INFO [PAR_00011072#1]       StepMonitoring.java:98   | LINKS
+2025-09-25 01:07:42,251 INFO [PAR_00011072#1]        SymbolsLinker.java:257  | No chord linked to OctaveShiftInter#6863{(0.229) staff:1 OTTAVA ALTA}
+2025-09-25 01:07:42,316 INFO [PAR_00011072#1]       StepMonitoring.java:98   | RHYTHMS
+2025-09-25 01:07:42,343 INFO [PAR_00011072#1]                Voice.java:257  | Measure{#6} Voice{#1 excess:1/16} too long
+2025-09-25 01:07:42,344 INFO [PAR_00011072#1]                Voice.java:257  | Measure{#6} Voice{#2 excess:1/8} too long
+2025-09-25 01:07:42,344 INFO [PAR_00011072#1]          StackRhythm.java:224  | S1 MeasureStack#6 no correct rhythm
+2025-09-25 01:07:42,351 INFO [PAR_00011072#1]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/8} too long
+2025-09-25 01:07:42,351 INFO [PAR_00011072#1]          StackRhythm.java:224  | S2 MeasureStack#8 no correct rhythm
+2025-09-25 01:07:42,356 INFO [PAR_00011072#1]                Voice.java:257  | Measure{#11} Voice{#1 excess:1/16} too long
+2025-09-25 01:07:42,356 INFO [PAR_00011072#1]          StackRhythm.java:224  | S2 MeasureStack#11 no correct rhythm
+2025-09-25 01:07:42,367 INFO [PAR_00011072#1]                Voice.java:257  | Measure{#21} Voice{#2 excess:1/8} too long
+2025-09-25 01:07:42,368 INFO [PAR_00011072#1]          StackRhythm.java:224  | S4 MeasureStack#21 no correct rhythm
+2025-09-25 01:07:42,374 INFO [PAR_00011072#1]                Voice.java:257  | Measure{#28} Voice{#1 excess:1/8} too long
+2025-09-25 01:07:42,375 INFO [PAR_00011072#1]          StackRhythm.java:224  | S4 MeasureStack#28 no correct rhythm
+2025-09-25 01:07:42,379 INFO [PAR_00011072#1]                Voice.java:257  | Measure{#33} Voice{#1 excess:3/16} too long
+2025-09-25 01:07:42,379 INFO [PAR_00011072#1]          StackRhythm.java:224  | S5 MeasureStack#33 no correct rhythm
+2025-09-25 01:07:42,381 INFO [PAR_00011072#1]       StepMonitoring.java:98   | PAGE
+2025-09-25 01:07:42,389 INFO [PAR_00011072#1]                Voice.java:257  | Measure{#6} Voice{#1 excess:1/16} too long
+2025-09-25 01:07:42,390 INFO [PAR_00011072#1]                Voice.java:257  | Measure{#6} Voice{#2 excess:1/8} too long
+2025-09-25 01:07:42,391 INFO [PAR_00011072#1]                Voice.java:257  | Measure{#8} Voice{#1 excess:1/8} too long
+2025-09-25 01:07:42,391 INFO [PAR_00011072#1]                Voice.java:257  | Measure{#11} Voice{#1 excess:1/16} too long
+2025-09-25 01:07:42,392 INFO [PAR_00011072#1]                Voice.java:257  | Measure{#21} Voice{#2 excess:1/8} too long
+2025-09-25 01:07:42,393 INFO [PAR_00011072#1]                Voice.java:257  | Measure{#28} Voice{#1 excess:1/8} too long
+2025-09-25 01:07:42,394 INFO [PAR_00011072#1]                Voice.java:257  | Measure{#33} Voice{#1 excess:3/16} too long
+2025-09-25 01:07:42,395 INFO [PAR_00011072#1]                 Book.java:2550 | Book{PAR_00011072} storing
+2025-09-25 01:07:42,463 INFO [PAR_00011072#1]                 Book.java:2531 | Stored /book.xml
+2025-09-25 01:07:42,711 INFO [PAR_00011072#1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2025-09-25 01:07:43,738 INFO [PAR_00011072#1]                Sheet.java:1562 | Stored /sheet#1/sheet#1.xml
+2025-09-25 01:07:43,738 INFO [PAR_00011072#1]                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/PAR_00011072.omr
+2025-09-25 01:07:43,740 INFO [PAR_00011072#1]            SheetStub.java:1644 | Disposed sheet#1
+2025-09-25 01:07:43,799 INFO [PAR_00011072#1]                 Book.java:2018 | End of Stub#1 memory: 36,724,832
+2025-09-25 01:07:43,800 INFO [PAR_00011072#2]       StepMonitoring.java:98   | LOAD
+2025-09-25 01:07:44,938 INFO [PAR_00011072#2]            SheetStub.java:1268 | Loaded image #2 2317x3299 from /home/kaval/Documentos/dev/CONCER/python/uploads/PAR_00011072.pdf
+2025-09-25 01:07:44,938 INFO [PAR_00011072#2]       StepMonitoring.java:98   | BINARY
+2025-09-25 01:07:45,359 INFO [PAR_00011072#2]       StepMonitoring.java:98   | SCALE
+2025-09-25 01:07:45,367 INFO [PAR_00011072#2]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 20 interline
+2025-09-25 01:07:45,367 INFO [PAR_00011072#2]         ScaleBuilder.java:264  | Beam measured height:  9 -- 0.15 of [7..20] range at 391% of needed quorum
+2025-09-25 01:07:45,367 INFO [PAR_00011072#2]            ScaleStep.java:65   | Scale{ interline(18,20,22) line(1,4,7) beam(9)}
+2025-09-25 01:07:45,367 INFO [PAR_00011072#2]       StepMonitoring.java:98   | GRID
+2025-09-25 01:07:45,847 INFO [PAR_00011072#2]       LinesRetriever.java:1500 | Global slope: -0.00876
+2025-09-25 01:07:45,862 INFO [PAR_00011072#2]    ClustersRetriever.java:328  | Retrieved raw line clusters: 4 of sizes [5] with interline(18,20,22)
+2025-09-25 01:07:46,054 INFO [PAR_00011072#2]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4]
+2025-09-25 01:07:46,530 INFO [PAR_00011072#2]        SystemManager.java:134  | Indentation detected for system #1
+2025-09-25 01:07:46,530 INFO [PAR_00011072#2]        SystemManager.java:779  | 1 part along 4 systems
+2025-09-25 01:07:46,530 INFO [PAR_00011072#2]       StepMonitoring.java:98   | HEADERS
+2025-09-25 01:07:46,747 WARN [PAR_00011072#2]          ClefBuilder.java:658  | Staff#1 no recognized header clef.
+2025-09-25 01:07:47,804 INFO [PAR_00011072#2]       StepMonitoring.java:98   | STEM_SEEDS
+2025-09-25 01:07:47,855 INFO [PAR_00011072#2]        StemSeedsStep.java:86   | stem(4 max:5)
+2025-09-25 01:07:47,880 INFO [PAR_00011072#2]       StepMonitoring.java:98   | BEAMS
+2025-09-25 01:07:51,217 INFO [PAR_00011072#2]       StepMonitoring.java:98   | LEDGERS
+2025-09-25 01:07:51,783 INFO [PAR_00011072#2]       StepMonitoring.java:98   | HEADS
+2025-09-25 01:07:54,573 INFO [PAR_00011072#2]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:0.4,R:0.1]}
+2025-09-25 01:07:54,574 INFO [PAR_00011072#2]       StepMonitoring.java:98   | STEMS
+2025-09-25 01:07:54,659 INFO [PAR_00011072#2]           BeamLinker.java:1729 | Not linking shorter BeamInter#1061{(0.462/0.793) BEAM}
+2025-09-25 01:07:54,765 INFO [PAR_00011072#2]           BeamLinker.java:1729 | Not linking shorter BeamHookInter#1208{(0.491/0.714) BEAM_HOOK}
+2025-09-25 01:07:54,766 INFO [PAR_00011072#2]           BeamLinker.java:1729 | Not linking shorter BeamInter#1157{(0.403/0.603) BEAM}
+2025-09-25 01:07:55,045 INFO [PAR_00011072#2]       StepMonitoring.java:98   | REDUCTION
+2025-09-25 01:07:55,096 INFO [PAR_00011072#2]       BeamGroupInter.java:1123 | Separating beams BeamInter#1048{(0.631/0.949) BEAM} and BeamInter#1052{(0.550/0.910) BEAM}
+2025-09-25 01:07:55,100 INFO [PAR_00011072#2]       BeamGroupInter.java:1123 | Separating beams BeamInter#1253{(0.627/0.929) BEAM} and BeamInter#1257{(0.673/0.956) BEAM}
+2025-09-25 01:07:55,100 INFO [PAR_00011072#2]       BeamGroupInter.java:1123 | Separating beams BeamInter#1334{(0.644/0.946) BEAM} and BeamInter#1393{(0.435/0.852) BEAM}
+2025-09-25 01:07:55,101 INFO [PAR_00011072#2]       BeamGroupInter.java:1123 | Separating beams BeamInter#1344{(0.627/0.933) BEAM} and BeamInter#1348{(0.680/0.959) BEAM}
+2025-09-25 01:07:55,102 INFO [PAR_00011072#2]        ReductionStep.java:105  | Stems free length median value: 49 pixels, 2.5 interlines
+2025-09-25 01:07:55,105 INFO [PAR_00011072#2]       StepMonitoring.java:98   | CUE_BEAMS
+2025-09-25 01:07:55,105 INFO [PAR_00011072#2]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-09-25 01:07:55,106 INFO [PAR_00011072#2]       StepMonitoring.java:98   | TEXTS
+2025-09-25 01:07:55,233 WARN [PAR_00011072#2]         TesseractOCR.java:335  | The collection of supported languages is empty
+2025-09-25 01:07:55,233 INFO [PAR_00011072#2]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2025-09-25 01:07:55,236 INFO [PAR_00011072#2]       StepMonitoring.java:98   | MEASURES
+2025-09-25 01:07:55,237 INFO [PAR_00011072#2]                 Page.java:307  | 25 raw measures: [5 in system#1, 6 in system#2, 7 in system#3, 7 in system#4]
+2025-09-25 01:07:55,238 INFO [PAR_00011072#2]       StepMonitoring.java:98   | CHORDS
+2025-09-25 01:07:55,244 INFO [PAR_00011072#2]       StepMonitoring.java:98   | CURVES
+2025-09-25 01:07:55,859 INFO [PAR_00011072#2]         SlursBuilder.java:240  | Slurs: 15
+2025-09-25 01:07:55,870 INFO [PAR_00011072#2]      SegmentsBuilder.java:155  | Segments: 37
+2025-09-25 01:07:55,871 INFO [PAR_00011072#2]       StepMonitoring.java:98   | SYMBOLS
+2025-09-25 01:07:56,644 INFO [PAR_00011072#2]       StepMonitoring.java:98   | LINKS
+2025-09-25 01:07:56,675 INFO [PAR_00011072#2]       StepMonitoring.java:98   | RHYTHMS
+2025-09-25 01:07:56,700 INFO [PAR_00011072#2]       StepMonitoring.java:98   | PAGE
+2025-09-25 01:07:56,704 WARN [PAR_00011072#2]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3, 4, 5], please check time signatures
+2025-09-25 01:07:56,705 WARN [PAR_00011072#2]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [6, 7, 8, 9, 10, 11], please check time signatures
+2025-09-25 01:07:56,705 WARN [PAR_00011072#2]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [12, 13, 14, 15, 16, 17, 18], please check time signatures
+2025-09-25 01:07:56,706 WARN [PAR_00011072#2]         MeasureFixer.java:343  | System#4 No target duration for measures local IDs [19, 20, 21, 22, 23, 24, 25], please check time signatures
+2025-09-25 01:07:56,707 INFO [PAR_00011072#2]                 Book.java:2550 | Book{PAR_00011072} storing
+2025-09-25 01:07:56,763 INFO [PAR_00011072#2]                 Book.java:2531 | Stored /book.xml
+2025-09-25 01:07:56,851 INFO [PAR_00011072#2]           DataHolder.java:348  | Stored /sheet#2/BINARY.png
+2025-09-25 01:07:57,529 INFO [PAR_00011072#2]                Sheet.java:1562 | Stored /sheet#2/sheet#2.xml
+2025-09-25 01:07:57,529 INFO [PAR_00011072#2]                 Book.java:2491 | Book stored as /home/kaval/Documentos/dev/CONCER/python/outputs/PAR_00011072.omr
+2025-09-25 01:07:57,531 INFO [PAR_00011072#2]            SheetStub.java:1644 | Disposed sheet#2
+2025-09-25 01:07:57,587 INFO [PAR_00011072#2]                 Book.java:2018 | End of Stub#2 memory: 36,623,200
+2025-09-25 01:07:57,588 INFO [PAR_00011072]                 Book.java:2025 | Book processed.
+2025-09-25 01:07:58,243 INFO [PAR_00011072]            SheetStub.java:995  | Loaded /sheet#1/sheet#1.xml
+2025-09-25 01:07:58,776 INFO [PAR_00011072]            SheetStub.java:995  | Loaded /sheet#2/sheet#2.xml
+2025-09-25 01:07:59,176 INFO [PAR_00011072]      PartwiseBuilder.java:2661 | Exporting sheet(s): [#1]
+2025-09-25 01:07:59,294 INFO [PAR_00011072]        ScoreExporter.java:164  | Score PAR_00011072.mvt1 exported to /home/kaval/Documentos/dev/CONCER/python/outputs/PAR_00011072.mvt1.mxl
+2025-09-25 01:07:59,295 INFO [PAR_00011072]      PartwiseBuilder.java:2661 | Exporting sheet(s): [#2]
+2025-09-25 01:07:59,324 INFO [PAR_00011072]        ScoreExporter.java:164  | Score PAR_00011072.mvt2 exported to /home/kaval/Documentos/dev/CONCER/python/outputs/PAR_00011072.mvt2.mxl
+2025-09-25 01:07:59,376 INFO [PAR_00011072]                Score.java:181  | Closing {Score 1}
+2025-09-25 01:07:59,377 INFO [PAR_00011072]                Score.java:181  | Closing {Score 2}
